@@ -1,0 +1,145 @@
+baseurl = "/" # need to change once get a domain.
+languageCode = "en"
+title = "Uncoast Unconf"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "#uncoastUnconf"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#features"
+      text = "ABOUT"
+    [[params.navbar.menu]]
+      link = "https://samtyner.typeform.com/to/vLVZuv"
+      text = "APPLY"
+    [[params.navbar.menu]]
+      link = "mailto:sctyner@iastate.edu"
+      text = "CONTACT"
+
+  # Header
+  [params.header]
+    title = "The Uncoast Unconference"
+    text = "Bringing R users and developers together in flyover country."
+    [params.header.image]
+      path = "images/templogo.png"
+      alt = "Uncoastal"
+    [params.header.button]
+      link = "https://samtyner.typeform.com/to/vLVZuv" # in draft status rn.
+      text = "Apply here."
+      # want button to have color #135FB2 and color #BEC0C3 on hover
+
+  # about
+  [params.features]
+    title = "What is an unconf?"
+    #[params.features.image]
+    #  path = "images/watch-2.png"
+    #  alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-calendar2"
+      title = "When"
+      text = "April 14-16, 2019"
+    [[params.features.left]]
+      icon = "tf-map2"
+      title = "Where"
+      text = "John Deere Financial in Des Moines, IA"
+    [[params.features.left]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Easy Pricing"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Smooth Touch"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Elegant Design"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Easy Pricing"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+  [params.promo]
+    title = "Designed by professional , the benefit for creative gigs"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    [params.promo.image]
+      path = "images/watch.png"
+      alt = "Watch"
+
+  [params.feature_list]
+    title = "Why Choose Apple Watch"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-4.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-3.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+
+  [params.gallery]
+    title = "Checkout some amazing Shorts"
+    # Set the image directory to use as base
+    directory = "images/showcase"
+    # Set the images to show in the gallery
+    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+#  [params.call_to_action]
+#    title = "Get Product Updates"
+#    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+#    placeholder = "Your Email Address Here"
+#    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Organizers"
+    [[params.testimonials.blocks]]
+      text = "Quote or bio. <a href='https://sctyner.github.io/'>Website</a>"
+      name = "Sam Tyner"
+      position = "Postdoc Research Associate, Iowa State University"
+      image = "images/sam-headshot.jpg"
+    [[params.testimonials.blocks]]
+      text = "Quote or bio."
+      name = "Sam Helmich"
+      position = "Senior Data Scientist, John Deere"
+      image = ""
+    [[params.testimonials.blocks]]
+      text = "Quote or bio."
+      name = "Susan Vanderplas"
+      position = "Research Faculty, Iowa State University"
+      image = ""
+    [[params.testimonials.blocks]]
+      text = "Quote or bio."
+      name = "Ian Lyttle"
+      position = "Distinguished Technical Expert, Schneider Electric"
+      image = ""
+    [[params.testimonials.blocks]]
+      text = "Quote or bio."
+      name = "Heike Hofmann"
+      position = "Professor of Statistics, Iowa State University"
+      image = ""
+    [params.testimonials.button]
+      link = "https://samtyner.typeform.com/to/vLVZuv"
+      text = "Apply here."
+
+  # Footer uses navbar data
