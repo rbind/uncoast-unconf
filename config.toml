@@ -45,7 +45,7 @@ theme = "vex-hugo"
 
   # about
   [params.features]
-    title = "What is an unconf?"
+    title = "The Details"
     #[params.features.image]
     #  path = "images/watch-2.png"
     #  alt = "Watch"
@@ -59,9 +59,9 @@ theme = "vex-hugo"
       title = "Where"
       text = "John Deere Financial in Des Moines, IA"
     [[params.features.left]]
-      icon = "tf-ion-ios-cart-outline"
-      title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon = "tf-ion-person-add"
+      title = "Who"
+      text = "You!"
     # Menu at the right of the image
     [[params.features.right]]
       icon = "tf-ion-ios-alarm-outline"
@@ -77,29 +77,30 @@ theme = "vex-hugo"
       text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
   [params.promo]
-    title = "Designed by professional , the benefit for creative gigs"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    title = "What is an unconference?"
+    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will also be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github."
     [params.promo.image]
       path = "images/watch.png"
-      alt = "Watch"
+      alt = "Organizers having fun at past unconf"
 
-  [params.feature_list]
-    title = "Why Choose Apple Watch"
-    [[params.feature_list.items]]
-      image = "images/showcase/showcase-4.png"
-      title = "Lorem ipsum dolor sit amet."
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-      button_link = ""
-      button_text = "Check Features"
-    [[params.feature_list.items]]
-      image = "images/showcase/showcase-3.png"
-      title = "Lorem ipsum dolor sit amet."
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-      button_link = ""
-      button_text = "Check Features"
+#  [params.feature_list]
+#    title = "Why Choose Apple Watch"
+#    [[params.feature_list.items]]
+#      image = "images/showcase/showcase-4.png"
+#      title = "Lorem ipsum dolor sit amet."
+#      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+#      button_link = ""
+#      button_text = "Check Features"
+#    [[params.feature_list.items]]
+#      image = "images/showcase/showcase-3.png"
+#      title = "Lorem ipsum dolor sit amet."
+#      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+#      button_link = ""
+#      button_text = "Check Features"
 
   [params.gallery]
-    title = "Checkout some amazing Shorts"
+    title = "Pictures from Similar Events"
+    text = "Attended by the organizers"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
@@ -133,6 +134,11 @@ theme = "vex-hugo"
       name = "Ian Lyttle"
       position = "Distinguished Technical Expert, Schneider Electric"
       image = ""
+    [[params.testimonials.blocks]]
+      text = "Quote or bio."
+      name = "Angela Li"
+      position = "R-Ladies Chicago, University of Chicago"
+      image = ""  
     [[params.testimonials.blocks]]
       text = "Quote or bio."
       name = "Heike Hofmann"

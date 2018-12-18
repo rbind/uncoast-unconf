@@ -2,7 +2,7 @@
     Common Css
 --*/
 body {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 25px;
   color: #3b4045;
@@ -88,7 +88,9 @@ a:active {
     custom heading
 --*/
 .text-center {
-  text-align: center; }
+  text-align: center;
+}
+
 
 .heading {
   text-align: center;
@@ -159,7 +161,7 @@ a:active {
 .pre-loader {
   width: 130px;
   height: 130px;
-  background:  #135FB2;
+  background: #135FB2;
   border-radius: 50%;
   animation: loading 6s infinite reverse linear;
   position: relative;
@@ -298,7 +300,10 @@ a:active {
     line-height: 1.1; }
 
 .promo-details {
-  background:  #135FB2; }
+  color: #BEC0C3 !important;  
+  background:  #135FB2; 
+  font-weight: bold;
+}
   .promo-details h2 {
     color: #fff;
     font-weight: 700;
@@ -307,7 +312,7 @@ a:active {
     text-align: left; }
   .promo-details p {
     color: #fff;
-    font-size: 18px; }
+    font-size: 24px; }
 
 /*--
     Feature-list start
