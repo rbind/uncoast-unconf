@@ -25,7 +25,7 @@ theme = "vex-hugo"
       link = "#features"
       text = "ABOUT"
     [[params.navbar.menu]]
-      link = "https://samtyner.typeform.com/to/vLVZuv"
+      link = "https://uncoastunconf.typeform.com/to/vLVZuv"
       text = "APPLY"
     [[params.navbar.menu]]
       link = "mailto:sctyner@iastate.edu"
@@ -39,7 +39,7 @@ theme = "vex-hugo"
       path = "images/templogo.png"
       alt = "Uncoastal"
     [params.header.button]
-      link = "https://samtyner.typeform.com/to/vLVZuv" # in draft status rn.
+      link = "https://uncoastunconf.typeform.com/to/vLVZuv" # in draft status rn.
       text = "Apply here."
       # want button to have color #135FB2 and color #BEC0C3 on hover
 
@@ -145,7 +145,7 @@ theme = "vex-hugo"
       position = "Professor of Statistics, Iowa State University"
       image = ""
     [params.testimonials.button]
-      link = "https://samtyner.typeform.com/to/vLVZuv"
+      link = "https://uncoastunconf.typeform.com/to/vLVZuv"
       text = "Apply here."
 
   # Footer uses navbar data
