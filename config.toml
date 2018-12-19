@@ -115,25 +115,25 @@ theme = "vex-hugo"
   [params.testimonials]
     title = "Organizers"
     [[params.testimonials.blocks]]
-      text = "Quote or bio. <a href='https://sctyner.github.io/'>Website</a>"
+      text = "Sam earned her PhD in Statistics from Iowa State University in 2017. Her main research interests are data visualization and forensic statistics. <a href='https://sctyner.github.io/'>Website</a>"
       name = "Sam Tyner"
       position = "Postdoc Research Associate, Iowa State University"
-      image = "images/sam-headshot.jpg"
+      image = "images/sam-headshot.png"
     [[params.testimonials.blocks]]
       text = "Quote or bio."
       name = "Sam Helmich"
       position = "Senior Data Scientist, John Deere"
       image = ""
     [[params.testimonials.blocks]]
-      text = "Quote or bio."
+      text = "Susan got her PhD from Iowa State University in 2015. She is currently working on research in statistical graphics and forensic statistics."
       name = "Susan Vanderplas"
-      position = "Research Faculty, Iowa State University"
-      image = ""
+      position = "Research Assistant Professor, Iowa State University"
+      image = "images/susan-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Quote or bio."
+      text = "Ian's background is in Mechanical Engineering and Computational Fluid Dynamics, for which his toolset was Fortran77 and LaTeX. As Schneider Electric became more data-centric, he learned R, and soon became an R visualization enthusiast. Since joining the ISU Statistical Graphics Working Group, Ian has become an R expert!"
       name = "Ian Lyttle"
-      position = "Distinguished Technical Expert, Schneider Electric"
-      image = ""
+      position = "Data Scientist, Schneider Electric"
+      image = "images/ian-headshot.png"
     [[params.testimonials.blocks]]
       text = "Quote or bio."
       name = "Angela Li"
