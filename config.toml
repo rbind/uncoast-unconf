@@ -115,7 +115,7 @@ theme = "vex-hugo"
   [params.testimonials]
     title = "Organizers"
     [[params.testimonials.blocks]]
-      text = "Sam earned her PhD in Statistics from Iowa State University in 2017. Her main research interests are data visualization and forensic statistics. <a href='https://sctyner.github.io/'>Website</a>"
+      text = "Sam earned her PhD in Statistics from Iowa State University in 2017. Her primary research interests are data visualization and forensic statistics. She writes about both of these things on her <a href='https://sctyner.github.io/'>website</a>."
       name = "Sam Tyner"
       position = "Postdoc Research Associate, Iowa State University"
       image = "images/sam-headshot.png"
