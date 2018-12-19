@@ -163,11 +163,10 @@ a:active {
   height: 130px;
   background: #135FB2;
   border-radius: 50%;
-  animation: loading 6s infinite reverse linear;
   position: relative;
   font-family: "themefisher-font" !important; }
   .pre-loader:before {
-    content: "\f3bd";
+    content: "\f1fc";
     position: absolute;
     top: 50%;
     left: 50%;

@@ -78,7 +78,7 @@ theme = "vex-hugo"
 
   [params.promo]
     title = "What is an unconference?"
-    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will also be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github."
+    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github."
     [params.promo.image]
       path = "images/watch.png"
       alt = "Organizers having fun at past unconf"
