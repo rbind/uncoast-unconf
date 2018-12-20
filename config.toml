@@ -25,7 +25,7 @@ theme = "vex-hugo"
       link = "#features"
       text = "ABOUT"
     [[params.navbar.menu]]
-      link = "https://uncoastunconf.typeform.com/to/vLVZuv"
+      link = "http://bit.ly/uncoastUnconf19"
       text = "APPLY"
     [[params.navbar.menu]]
       link = "mailto:sctyner@iastate.edu"
@@ -39,16 +39,16 @@ theme = "vex-hugo"
       path = "images/templogo.png"
       alt = "Uncoastal"
     [params.header.button]
-      link = "https://uncoastunconf.typeform.com/to/vLVZuv" # in draft status rn.
+      link = "http://bit.ly/uncoastUnconf19" # in draft status rn.
       text = "Apply here."
       # want button to have color #135FB2 and color #BEC0C3 on hover
 
   # about
   [params.features]
     title = "The Details"
-    #[params.features.image]
-    #  path = "images/watch-2.png"
-    #  alt = "Watch"
+    [params.features.image]
+      path = "images/map.png"
+      alt = "Location"
     # Menu at the left of the image
     [[params.features.left]]
       icon = "tf-calendar2"
@@ -64,17 +64,17 @@ theme = "vex-hugo"
       text = "You!"
     # Menu at the right of the image
     [[params.features.right]]
-      icon = "tf-ion-ios-alarm-outline"
-      title = "Smooth Touch"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon = "tf-ion-calendar"
+      title = "April 14"
+      text = "An optional 'Day Zero' workshop for learning how to write R packages and collaborate with Github."
     [[params.features.right]]
-      icon = "tf-ion-ios-bell-outline"
-      title = "Elegant Design"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon = "tf-ion-calendar"
+      title = "April 15"
+      text = "Day 1: Start with some introductions, form project groups, and go!"
     [[params.features.right]]
-      icon = "tf-ion-ios-cart-outline"
-      title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon = "tf-ion-calendar"
+      title = "April 16"
+      text = "Day 2: Continue to work on projects, group discussions, report out, dinner as a group."
 
   [params.promo]
     title = "What is an unconference?"
@@ -83,20 +83,20 @@ theme = "vex-hugo"
       path = "images/watch.png"
       alt = "Organizers having fun at past unconf"
 
-#  [params.feature_list]
-#    title = "Why Choose Apple Watch"
-#    [[params.feature_list.items]]
-#      image = "images/showcase/showcase-4.png"
-#      title = "Lorem ipsum dolor sit amet."
-#      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-#      button_link = ""
-#      button_text = "Check Features"
-#    [[params.feature_list.items]]
-#      image = "images/showcase/showcase-3.png"
-#      title = "Lorem ipsum dolor sit amet."
-#      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-#      button_link = ""
-#      button_text = "Check Features"
+  [params.feature_list]
+    title = "Featured Participants"
+    [[params.feature_list.items]]
+      image = "https://d33wubrfki0l68.cloudfront.net/42023922872cca83b20851f15088d1fd4236d084/e41a8/images/logo.png" # standin for now
+      title = "Yihui Xie"
+      text = "Software Engineer, RStudio (Location: Omaha, NE)" # more bio? 
+      button_link = "https://yihui.name/en/vitae/"
+      button_text = "Yihui's Website"
+    [[params.feature_list.items]]
+      image = "https://pbs.twimg.com/profile_images/452916682550308864/BrzrjV5i_400x400.jpeg"
+      title = "Winston Chang"
+      text = "Software Developer, RStudio (Location: Minneapolis, MN)"
+      button_link = "https://github.com/wch"
+      button_text = "Winston's Github" 
 
   [params.gallery]
     title = "Pictures from Similar Events"
@@ -120,32 +120,32 @@ theme = "vex-hugo"
       position = "Postdoc Research Associate, Iowa State University"
       image = "images/sam-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Quote or bio."
+      text = "Quote or bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
       name = "Sam Helmich"
       position = "Senior Data Scientist, John Deere"
-      image = ""
-    [[params.testimonials.blocks]]
-      text = "Susan got her PhD from Iowa State University in 2015. She is currently working on research in statistical graphics and forensic statistics."
-      name = "Susan Vanderplas"
-      position = "Research Assistant Professor, Iowa State University"
-      image = "images/susan-headshot.png"
+      image = "images/avater.png"
     [[params.testimonials.blocks]]
       text = "Ian's background is in Mechanical Engineering and Computational Fluid Dynamics, for which his toolset was Fortran77 and LaTeX. As Schneider Electric became more data-centric, he learned R, and soon became an R visualization enthusiast. Since joining the ISU Statistical Graphics Working Group, Ian has become an R expert!"
       name = "Ian Lyttle"
       position = "Data Scientist, Schneider Electric"
       image = "images/ian-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Quote or bio."
+      text = "Susan got her PhD from Iowa State University in 2015. She is currently working on research in statistical graphics and forensic statistics."
+      name = "Susan Vanderplas"
+      position = "Research Assistant Professor, Iowa State University"
+      image = "images/susan-headshot.png"
+    [[params.testimonials.blocks]]
+      text = "Quote or bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
       name = "Angela Li"
       position = "R-Ladies Chicago, University of Chicago"
-      image = ""  
+      image = "images/avater.png"  
     [[params.testimonials.blocks]]
-      text = "Quote or bio."
+      text = "Quote or bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
       name = "Heike Hofmann"
       position = "Professor of Statistics, Iowa State University"
-      image = ""
+      image = "images/avater.png"
     [params.testimonials.button]
-      link = "https://uncoastunconf.typeform.com/to/vLVZuv"
+      link = "http://bit.ly/uncoastUnconf19"
       text = "Apply here."
 
   # Footer uses navbar data
