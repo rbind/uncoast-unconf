@@ -8,13 +8,13 @@
           {{- range first 6 .blocks }}
           <div class="col-md-4 text-center">
             <div class="testimonial-block">
-              <i class="tf-ion-person"></i>
-              <p>{{ .text | markdownify }}</p>
+              <!-- <i class="tf-ion-person"></i>-->
               <div class="author-details">
                 <img src="{{ .image }}" alt="">
                 <h4>{{ .name }}</h4>
                 <span>{{ .position }}</span>
               </div>
+             <p>{{ .text | markdownify }}</p>
             </div>
           </div>
           {{- end }}

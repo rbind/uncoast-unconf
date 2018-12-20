@@ -84,7 +84,7 @@ theme = "vex-hugo"
       alt = "Organizers having fun at past unconf"
 
   [params.feature_list]
-    title = "Featured Participants"
+    title = "Participants"
     [[params.feature_list.items]]
       image = "https://d33wubrfki0l68.cloudfront.net/42023922872cca83b20851f15088d1fd4236d084/e41a8/images/logo.png" # standin for now
       title = "Yihui Xie"
