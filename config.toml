@@ -86,17 +86,26 @@ theme = "vex-hugo"
   [params.feature_list]
     title = "Participants"
     [[params.feature_list.items]]
-      image = "https://d33wubrfki0l68.cloudfront.net/42023922872cca83b20851f15088d1fd4236d084/e41a8/images/logo.png" # standin for now
+      image = "https://pbs.twimg.com/profile_images/205337390/robstat_400x400.png" 
       title = "Yihui Xie"
-      text = "Software Engineer, RStudio (Location: Omaha, NE)" # more bio? 
-      button_link = "https://yihui.name/en/vitae/"
+      subtitle = "Location: Omaha, Nebraska"
+      text = "Yihui Xie is a software engineer at RStudio. He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as knitr, bookdown, blogdown, xaringan, tinytex, animation, DT, tufte, formatR, fun, xfun, mime, highr, servr, and Rd2roxygen, among which the animation package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including shiny, rmarkdown, and leaflet. He has authored two books, Dynamic Documents with knitr (Xie 2015), and bookdown: Authoring Books and Technical Documents with R Markdown (Xie 2016), and co-authored two book, blogdown: Creating Websites with R Markdown (Xie, Hill, and Thomas 2017), and R Markdown: The Definitive Guide (Xie, Allaire, and Grolemund 2018)." # more bio? 
+      button_link = "https://yihui.name"
       button_text = "Yihui's Website"
     [[params.feature_list.items]]
       image = "https://pbs.twimg.com/profile_images/452916682550308864/BrzrjV5i_400x400.jpeg"
       title = "Winston Chang"
+      subtitle = "Location: Minneapolis, Minnesota"
       text = "Software Developer, RStudio (Location: Minneapolis, MN)"
       button_link = "https://github.com/wch"
       button_text = "Winston's Github" 
+    [[params.feature_list.items]]
+      image = "https://pbs.twimg.com/profile_images/1055552227660759043/8xR6ZFfI_400x400.jpg"
+      title = "Amelia McNamara"
+      subtitle = "Location: St. Paul, Minnesota"
+      text = "Amelia is an Assistant Professor at the University of St Thomas in the department of  Department of Computer & Information Sciences. She earned her PhD in Statistics from UCLA. Her research interests include statistics education, statistical computing, data visualization, and spatial statistics. At the moment, she is also very interested in the effects of parameter choices on data analysis, particularly data visualizations."
+      button_link = "http://www.amelia.mn/"
+      button_text = "Amelia's Website" 
 
   [params.gallery]
     title = "Pictures from Similar Events"
