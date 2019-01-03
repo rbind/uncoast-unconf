@@ -1,5 +1,6 @@
 baseurl = "/" # need to change once get a domain.
 languageCode = "en"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 title = "Uncoast Unconf"
 theme = "vex-hugo"
 
@@ -30,6 +31,9 @@ theme = "vex-hugo"
     [[params.navbar.menu]]
       link = "mailto:sctyner@iastate.edu"
       text = "CONTACT"
+    [[params.navbar.menu]]
+      link = "CoC.html"
+      text = "CODE OF CONDUCT"
 
   # Header
   [params.header]
@@ -40,7 +44,7 @@ theme = "vex-hugo"
       alt = "Uncoastal"
     [params.header.button]
       link = "http://bit.ly/uncoastUnconf19" # in draft status rn.
-      text = "Apply here."
+      text = "Apply here!"
       # want button to have color #135FB2 and color #BEC0C3 on hover
 
   # about
@@ -155,6 +159,6 @@ theme = "vex-hugo"
       image = "images/heike-headshot.png"
     [params.testimonials.button]
       link = "http://bit.ly/uncoastUnconf19"
-      text = "Apply here."
+      text = "Apply here!"
 
   # Footer uses navbar data
