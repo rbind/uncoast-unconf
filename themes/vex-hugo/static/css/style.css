@@ -52,7 +52,7 @@ a {
   transition: all 0.2s ease-in-out 0s; }
 
 .mt-100 {
-  margin-top: 100px; }
+  margin-top: 10px; }
 
 /** --.bg-1 {
   background-image: url(../images/call-to-action.jpg); }
@@ -82,7 +82,7 @@ a:active {
   text-decoration: none; }
 
 .section {
-  padding: 100px 0; }
+  padding: 50px 0; }
 
 /*--
     custom heading
@@ -95,7 +95,7 @@ a:active {
 .heading {
   text-align: center;
   color: #777777;
-  padding-bottom: 70px; }
+  padding-bottom: 30px; }
   .heading h2 {
     color: #3c3c3c;
     padding-bottom: 15px;
@@ -110,11 +110,19 @@ a:active {
 
 .subheading {
   color: #3c3c3c;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   text-transform: capitalize;
   font-weight: 500;
   font-size: 32px;
   line-height: 45px; }
+  
+.subsubheading {
+  color: #3c3c3c;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 45px; }  
 
 .btn {
   border-radius: 0; }
@@ -126,6 +134,8 @@ a:active {
   padding: 15px 40px;
   display: inline-block;
   background-color:  #135FB2;
+  text-decoration: none;
+  
 /*--  -moz-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   -webkit-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5); --*/
@@ -284,10 +294,10 @@ a:active {
     feature start
 --*/
 .feature.section {
-  padding-bottom: 100px; }
+  padding-bottom: 50px; }
 
 .feature .feature-box {
-  margin-bottom: 40px; }
+  margin-bottom: 10px; }
   .feature .feature-box i {
     font-size: 30px;
     margin-bottom: 10px;
@@ -299,10 +309,11 @@ a:active {
     line-height: 1.1; }
 
 .promo-details {
-  color: #BEC0C3 !important;  
+  color: #fff;  
   background:  #135FB2; 
-  font-weight: bold;
+  font-weight: 500;
 }
+
   .promo-details h2 {
     color: #fff;
     font-weight: 700;
@@ -317,18 +328,43 @@ a:active {
     Feature-list start
 --*/
 .feature-list .btn-main {
-  margin-top: 15px; }
+  margin-top: 10px; }
+.feature-list .phead{
+  border: 3px solid #3C3C3C;
+  border-radius: 50%;
+  vertical-align: middle;
+}  
+
+.feature-list p{
+  font-size: 18px;
+  line-height: 20px;
+}
 
 /*--
   Gallery start
 --*/
 .gallery {
-  padding-bottom: 100px; }
+  padding-bottom: 20px; 
+  background: #135FB2;
+  color: #fff;
+}
+
+.gallery .heading{
+  padding: 50px 0;
+  color: #fff;
+}
+
+.gallery h2{
+  color: #fff;
+}
+.gallery img{
+  border-radius: 50%;
+}
   .gallery .owl-item {
     overflow: hidden;
     position: relative; }
   .gallery .block {
-    padding: 20px; }
+    padding: 20px;}
     .gallery .block:hover .gallery-overlay {
       webkit-transform: scale(1);
       transform: scale(1);
@@ -340,7 +376,7 @@ a:active {
     left: 15px;
     right: 15px;
     top: 15px;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0);
     text-decoration: none;
     color: inherit;
     -webkit-transform: scale(0.5);
@@ -372,8 +408,24 @@ a:active {
 /*--
     service start
 --*/
+
+.testimonials {
+  background: #135FB2;
+  color: #fff;}
+  
+.testimonials h2 {
+  color: #fff;
+}
+
+
+.testimonials a {
+  color: #fff;
+  text-decoration: underline;
+}
 .testimonials .testimonial-block {
-  padding: 0 10px; }
+  padding: 0 10px; 
+  background:  #135FB2; 
+}
   .testimonials .testimonial-block i {
     font-size: 40px;
     display: inline-block;
@@ -382,12 +434,14 @@ a:active {
   .testimonials .testimonial-block p {
     font-family: "Droid Serif", serif;
     font-size: 14px;
-    color: #777; }
+    color: #fff; }
   .testimonials .testimonial-block .author-details {
     margin-top: 30px; }
     .testimonials .testimonial-block .author-details img {
       border-radius: 50%;
-      width: 100px; }
+      width: 100px; 
+      border: 2px solid #fff;
+    }
     .testimonials .testimonial-block .author-details h4 {
       font-weight: 700;
       font-size: 20px;

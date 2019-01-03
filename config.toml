@@ -78,10 +78,10 @@ theme = "vex-hugo"
 
   [params.promo]
     title = "What is an unconference?"
-    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github."
+    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. (Photo credit: Karthik Ram and ROpenSci)"
     [params.promo.image]
-      path = "images/watch.png"
-      alt = "Organizers having fun at past unconf"
+      path = "images/karthik-runconf17.png"
+      alt = "What is an unconf?"
 
   [params.feature_list]
     title = "Participants"
@@ -92,28 +92,28 @@ theme = "vex-hugo"
       text = "Yihui Xie is a software engineer at RStudio. He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as knitr, bookdown, blogdown, xaringan, tinytex, animation, DT, tufte, formatR, fun, xfun, mime, highr, servr, and Rd2roxygen, among which the animation package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including shiny, rmarkdown, and leaflet. He has authored two books, Dynamic Documents with knitr (Xie 2015), and bookdown: Authoring Books and Technical Documents with R Markdown (Xie 2016), and co-authored two book, blogdown: Creating Websites with R Markdown (Xie, Hill, and Thomas 2017), and R Markdown: The Definitive Guide (Xie, Allaire, and Grolemund 2018)." # more bio? 
       button_link = "https://yihui.name"
       button_text = "Yihui's Website"
-    [[params.feature_list.items]]
-      image = "https://pbs.twimg.com/profile_images/452916682550308864/BrzrjV5i_400x400.jpeg"
-      title = "Winston Chang"
-      subtitle = "Location: Minneapolis, Minnesota"
-      text = "Software Developer, RStudio (Location: Minneapolis, MN)"
-      button_link = "https://github.com/wch"
-      button_text = "Winston's Github" 
-    [[params.feature_list.items]]
-      image = "https://pbs.twimg.com/profile_images/1055552227660759043/8xR6ZFfI_400x400.jpg"
-      title = "Amelia McNamara"
-      subtitle = "Location: St. Paul, Minnesota"
-      text = "Amelia is an Assistant Professor at the University of St Thomas in the department of  Department of Computer & Information Sciences. She earned her PhD in Statistics from UCLA. Her research interests include statistics education, statistical computing, data visualization, and spatial statistics. At the moment, she is also very interested in the effects of parameter choices on data analysis, particularly data visualizations."
-      button_link = "http://www.amelia.mn/"
-      button_text = "Amelia's Website" 
+#    [[params.feature_list.items]]
+#      image = "https://pbs.twimg.com/profile_images/452916682550308864/BrzrjV5i_400x400.jpeg"
+#      title = "Winston Chang"
+#      subtitle = "Location: Minneapolis, Minnesota"
+#      text = "Software Developer, RStudio (Location: Minneapolis, MN)"
+#      button_link = "https://github.com/wch"
+#      button_text = "Winston's Github" 
+#    [[params.feature_list.items]]
+#      image = "https://pbs.twimg.com/profile_images/1055552227660759043/8xR6ZFfI_400x400.jpg"
+#      title = "Amelia McNamara"
+#      subtitle = "Location: St. Paul, Minnesota"
+#      text = "Amelia is an Assistant Professor at the University of St Thomas in the department of  Department of Computer & Information Sciences. She earned her PhD in Statistics from UCLA. Her research interests include statistics education, statistical computing, data visualization, and spatial statistics. At the moment, she is also very interested in the effects of parameter choices on data analysis, particularly data visualizations."
+#      button_link = "http://www.amelia.mn/"
+#      button_text = "Amelia's Website" 
 
   [params.gallery]
     title = "Pictures from Similar Events"
-    text = "Attended by the organizers"
+    text = "Thanks to Mauro Lepore and Nistara Randhawa for the photos from other unconferences!"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
-    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+    images = ["ropensci-unconf17-checkers-nistara-randhawa.png", "mauro-runconf18-1.png", "mauro-runconf18-5.png", "mauro-runconf18-2.png", "mauro-runconf18-3.png", "mauro-runconf18-4.png", "mauro-runconf18-6.png", "mauro-runconf18-7.png"]
 
 #  [params.call_to_action]
 #    title = "Get Product Updates"
@@ -129,12 +129,12 @@ theme = "vex-hugo"
       position = "Postdoc Research Associate, Iowa State University"
       image = "images/sam-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Quote or bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      text = "Sam holds an MS in statistics from Iowa State University. Before starting his current position, he worked in applied analytics roles within John Deere Worldwide Parts and Global Order Fulfillment."
       name = "Sam Helmich"
-      position = "Senior Data Scientist, John Deere"
-      image = "images/avater.png"
+      position = "Principal Data Scientist, John Deere Intelligent Solutions Group"
+      image = "images/samh-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Ian's background is in Mechanical Engineering and Computational Fluid Dynamics, for which his toolset was Fortran77 and LaTeX. As Schneider Electric became more data-centric, he learned R, and soon became an R visualization enthusiast. Since joining the ISU Statistical Graphics Working Group, Ian has become an R expert!"
+      text = "Ian's background is in Mechanical Engineering and Computational Fluid Dynamics. As Schneider Electric became more data-centric, he learned R, and soon became an R visualization enthusiast. Since joining the ISU Statistical Graphics Working Group, Ian has become an R expert!"
       name = "Ian Lyttle"
       position = "Data Scientist, Schneider Electric"
       image = "images/ian-headshot.png"
@@ -149,10 +149,10 @@ theme = "vex-hugo"
       position = "R-Ladies Chicago, University of Chicago"
       image = "images/avater.png"  
     [[params.testimonials.blocks]]
-      text = "Quote or bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      text = "Heike's primary research interests are Data Visualization, Multivariate Categorical Data Analysis, Statistical Computing, Exploratory Data Analysis and Interactive Statistical Graphics. She is also a member of the ISU Data Science Curriculum Committee."
       name = "Heike Hofmann"
       position = "Professor of Statistics, Iowa State University"
-      image = "images/avater.png"
+      image = "images/heike-headshot.png"
     [params.testimonials.button]
       link = "http://bit.ly/uncoastUnconf19"
       text = "Apply here."
