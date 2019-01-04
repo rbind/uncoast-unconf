@@ -23,7 +23,7 @@ theme = "vex-hugo"
       link = "/"
       text = "HOME"
     [[params.navbar.menu]]
-      link = "#feature"
+      link = "#about"
       text = "ABOUT"
     [[params.navbar.menu]]
       link = "http://bit.ly/uncoastUnconf19"
@@ -148,10 +148,10 @@ theme = "vex-hugo"
       position = "Research Assistant Professor, Iowa State University"
       image = "images/susan-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Quote or bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      text = "Angela has a background in spatial econometrics and is currently building out spatial analysis resources for applied social science research. She is a proud R-Lady and data science community builder."
       name = "Angela Li"
-      position = "R-Ladies Chicago, University of Chicago"
-      image = "images/avater.png"  
+      position = "R Spatial Advocate, University of Chicago"
+      image = "images/angela-headshot.png"  
     [[params.testimonials.blocks]]
       text = "Heike's primary research interests are Data Visualization, Multivariate Categorical Data Analysis, Statistical Computing, Exploratory Data Analysis and Interactive Statistical Graphics. She is also a member of the ISU Data Science Curriculum Committee."
       name = "Heike Hofmann"
