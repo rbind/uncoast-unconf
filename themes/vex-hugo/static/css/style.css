@@ -119,7 +119,6 @@ a:active {
 .subsubheading {
   color: #3c3c3c;
   padding-bottom: 5px;
-  text-transform: capitalize;
   font-weight: 100;
   font-size: 24px;
   line-height: 45px; }  
@@ -455,15 +454,19 @@ a:active {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #3c3c3c;
   position: relative; }
+.call-to-action h2 {
+    color: #3c3c3c;
+  }
   .call-to-action .block h2 {
     margin-bottom: 6px;
-    color: #fff;
-    padding-bottom: 0; }
+    color: #3c3c3c;
+    padding-bottom: 0;
+  }
   .call-to-action .block p {
     padding-right: 30px;
-    color: #fff; }
+    color: #3c3c3cf; }
   .call-to-action .block .input-group {
     margin-top: 30px; }
     .call-to-action .block .input-group .btn-main {

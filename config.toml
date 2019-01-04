@@ -26,13 +26,16 @@ theme = "vex-hugo"
       link = "#about"
       text = "ABOUT"
     [[params.navbar.menu]]
+      link = "#sponsors"
+      text = "SPONSORS"
+    [[params.navbar.menu]]
       link = "http://bit.ly/uncoastUnconf19"
       text = "APPLY"
     [[params.navbar.menu]]
       link = "mailto:sctyner@iastate.edu"
       text = "CONTACT"
     [[params.navbar.menu]]
-      link = "https://github.com/uncost-unconf/uu-2019/wiki/Code-of-Conduct" # temp. work-around until I figure out the internal linking thing.
+      link = "https://github.com/uncoast-unconf/uu-2019/wiki/Code-of-Conduct" # temp. work-around until I figure out the internal linking thing.
       text = "CODE OF CONDUCT"
 
   # Header
@@ -82,13 +85,14 @@ theme = "vex-hugo"
 
   [params.promo]
     title = "What is an unconference?"
-    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. (Photo credit: Karthik Ram and ROpenSci)"
+    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. (Photo credit: Karthik Ram)"
     [params.promo.image]
       path = "images/karthik-runconf17.png"
       alt = "What is an unconf?"
 
   [params.feature_list]
     title = "Participants"
+    subtitle = "Additional participants will be added as they are confirmed."
     [[params.feature_list.items]]
       image = "https://pbs.twimg.com/profile_images/205337390/robstat_400x400.png" 
       title = "Yihui Xie"
@@ -112,18 +116,20 @@ theme = "vex-hugo"
 #      button_text = "Amelia's Website" 
 
   [params.gallery]
-    title = "Pictures from Similar Events"
+    title = "Similar Events"
+    subtitle = "If you're in the Chicago area, also check out our sister event happening in March, the"
+    link = "https://chirunconf.github.io/"
+    linktext = "Chicago R Unconference."
     text = "Thanks to Mauro Lepore and Nistara Randhawa for the photos from other unconferences!"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
-    images = ["ropensci-unconf17-checkers-nistara-randhawa.png", "mauro-runconf18-1.png", "mauro-runconf18-5.png", "mauro-runconf18-2.png", "mauro-runconf18-3.png", "mauro-runconf18-4.png", "mauro-runconf18-6.png", "mauro-runconf18-7.png"]
+    images = ["ropensci-unconf17-checkers-nistara-randhawa.png", "mauro-runconf18-1.png", "mauro-runconf18-5.png", "mauro-runconf18-2.png", "mauro-runconf18-3.png", "mauro-runconf18-6.png", "mauro-runconf18-7.png"]
 
-#  [params.call_to_action]
-#    title = "Get Product Updates"
-#    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-#    placeholder = "Your Email Address Here"
-#    button_text = "Subscribe"
+  [params.call_to_action]
+    title = "Sponsors"
+    text = "The Uncoast Unconference is currently seeking sponsors for this year's event. If you have questions about sponsorship or your organization is interested in becoming a sponsor, please email Sam Tyner at sctyner [at] iastate [dot] edu."
+
 
   [params.testimonials]
     title = "Organizers"
@@ -148,7 +154,7 @@ theme = "vex-hugo"
       position = "Research Assistant Professor, Iowa State University"
       image = "images/susan-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Angela has a background in spatial econometrics and is currently building out spatial analysis resources for applied social science research. She is a proud R-Lady and data science community builder."
+      text = "Angela has a background in spatial econometrics and is currently building out spatial analysis resources for applied social science research. She is a proud R-Lady and data science community builder. Learn more about Angela on her <a href='https://angela-li.github.io/'>website</a>."
       name = "Angela Li"
       position = "R Spatial Advocate, University of Chicago"
       image = "images/angela-headshot.png"  

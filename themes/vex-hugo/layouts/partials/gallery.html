@@ -3,9 +3,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="heading">
+            <div class="heading" style="padding-bottom: 0px">
               <h2>{{ .title }}</h2>
-              <p>{{.text}}</p>
+            </div>
+            <div class="text-center">
+              <h4 style="padding-bottom: 10px">{{ .subtitle }} <a href='{{ .link }}' style="color: #fff;text-decoration:underline;">{{ .linktext}}</a> </h4>
+              <p></p>
+              <h5>{{.text}}</h5>
             </div>
 
             <div class="gallery-slider">
