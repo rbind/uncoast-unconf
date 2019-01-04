@@ -49,7 +49,7 @@ theme = "vex-hugo"
 
   # about
   [params.features]
-    title = "The Details"
+    title = "About"
     [params.features.image]
       path = "images/map.png"
       alt = "Location"
