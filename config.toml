@@ -32,7 +32,7 @@ theme = "vex-hugo"
       link = "mailto:sctyner@iastate.edu"
       text = "CONTACT"
     [[params.navbar.menu]]
-      link = "/CoC.md"
+      link = "https://github.com/uncost-unconf/uu-2019/wiki/Code-of-Conduct" # temp. work-around until I figure out the internal linking thing.
       text = "CODE OF CONDUCT"
 
   # Header
@@ -157,8 +157,8 @@ theme = "vex-hugo"
       name = "Heike Hofmann"
       position = "Professor of Statistics, Iowa State University"
       image = "images/heike-headshot.png"
-    [params.testimonials.button]
-      link = "http://bit.ly/uncoastUnconf19"
-      text = "Apply here!"
+#    [params.testimonials.button]
+#     link = "http://bit.ly/uncoastUnconf19"
+#      text = "Apply here!"
 
   # Footer uses navbar data
