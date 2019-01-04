@@ -1,4 +1,4 @@
-baseurl = "/" # need to change once get a domain.
+baseurl = "https://stoic-carson-ecfaa2.netlify.com" # need to change once get rbind.io set up.
 languageCode = "en"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 title = "Uncoast Unconf"
