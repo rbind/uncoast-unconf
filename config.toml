@@ -32,7 +32,7 @@ theme = "vex-hugo"
       link = "mailto:sctyner@iastate.edu"
       text = "CONTACT"
     [[params.navbar.menu]]
-      link = "CoC.html"
+      link = "/CoC.md"
       text = "CODE OF CONDUCT"
 
   # Header
