@@ -20,10 +20,10 @@ theme = "vex-hugo"
   [params.navbar]
     logo = "#uncoastUnconf"
     [[params.navbar.menu]]
-      link = "#"
+      link = "/"
       text = "HOME"
     [[params.navbar.menu]]
-      link = "#features"
+      link = "#feature"
       text = "ABOUT"
     [[params.navbar.menu]]
       link = "http://bit.ly/uncoastUnconf19"
