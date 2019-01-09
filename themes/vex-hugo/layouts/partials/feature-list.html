@@ -18,7 +18,7 @@
             <div class="col-md-6">
               <div class="content mt-100">
                 <h4 class="subheading">{{ $element.title }}</h4>
-                <h3 class="subsubheading">{{ $element.subtitle }}</h2>
+                <h3 class="subsubheading">{{ $element.subtitle }}</h3>
                 <p class="part-text">{{ $element.text }}</p>
                 <a href="{{ $element.button_link }}" class="btn btn-main btn-main-sm">{{ $element.button_text }}</a>
               </div>
@@ -29,13 +29,13 @@
             <div class="col-md-6">
               <div class="content mt-100">
                 <h4 class="subheading">{{ $element.title }}</h4>
-                <h2>{{ $element.subtitle }}</h2>
+                <h3 class="subsubheading">{{ $element.subtitle }}</h3>
                 <p>{{ $element.text }}</p>
                 <a href="{{ $element.button_link }}" class="btn btn-main btn-main-sm">{{ $element.button_text }}</a>
               </div>
             </div>
             <div class="col-md-6 text-center">
-              <img class="" src="{{ $element.image }}" alt="">
+              <img class="phead" src="{{ $element.image }}" alt="">
             </div>
           </div>
           {{- end }}
