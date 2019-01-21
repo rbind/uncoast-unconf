@@ -37,6 +37,9 @@ theme = "vex-hugo"
     [[params.navbar.menu]]
       link = "https://github.com/uncoast-unconf/uu-2019/wiki/Code-of-Conduct" # temp. work-around until I figure out the internal linking thing.
       text = "CODE OF CONDUCT"
+    [[params.navbar.menu]]
+      link = "https://github.com/uncoast-unconf/uu-2019/wiki/FAQ"
+      text = "FAQ"
 
   # Header
   [params.header]
@@ -69,6 +72,10 @@ theme = "vex-hugo"
       icon = "tf-ion-person-add"
       title = "Who"
       text = "You!"
+    [[params.features.left]]
+      icon = "tf-alarmclock"
+      title = "Deadline"
+      text = "Apply by February 5 at 5pm"
     # Menu at the right of the image
     [[params.features.right]]
       icon = "tf-ion-calendar"
