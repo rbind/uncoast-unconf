@@ -5,6 +5,7 @@
           <div class="col-md-6 text-center">
           {{- with .image }}
             <img src="{{ .path }}" alt="{{ .alt }}">
+            <figcaption>{{ .text | markdownify }}</figcaption>
           {{- end }}
           </div>
           <div class="col-md-6">

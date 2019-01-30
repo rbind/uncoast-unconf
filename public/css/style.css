@@ -322,6 +322,10 @@ a:active {
   .promo-details p {
     color: #fff;
     font-size: 24px; }
+  .promo-details a {
+    color: #fff;
+    text-decoration: underline;
+  }  
 
 /*--
     Feature-list start

@@ -92,10 +92,11 @@ theme = "vex-hugo"
 
   [params.promo]
     title = "What is an unconference?"
-    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! R users and developers of all different backgrounds and levels come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. (Photo credit: Karthik Ram)"
+    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! Modeled on [rOpenSci unconfs](https://ropensci.org/blog/2018/06/05/unconf18/), at the Uncoast Unconf, R users and developers of all different backgrounds and levels will come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. For more on this type of unconference, see [this post](https://ropensci.org/blog/2017/11/17/unconf-sixtips/)."
     [params.promo.image]
       path = "images/karthik-runconf17.png"
       alt = "What is an unconf?"
+      text = "Photo credit: Karthik Ram, [ROpenSci](https://ropensci.org/)"
 
   [params.feature_list]
     title = "Participants"
@@ -124,11 +125,11 @@ theme = "vex-hugo"
 
 
   [params.gallery]
-    title = "Similar Events"
+    title = "Other Unconfs Past & Future"
     subtitle = "If you're in the Chicago area, also check out our sister event happening in March, the"
     link = "https://chirunconf.github.io/"
     linktext = "Chicago R Unconference."
-    text = "Thanks to Mauro Lepore and Nistara Randhawa for the photos from other unconferences!"
+    text = "Thanks to Mauro Lepore and Nistara Randhawa for the photos from previous rOpenSci Unconferences!"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
