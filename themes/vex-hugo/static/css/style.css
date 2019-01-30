@@ -312,6 +312,10 @@ a:active {
   background:  #135FB2; 
   font-weight: 500;
 }
+.promo-details a {
+    color: #fff;
+    text-decoration: underline; 
+}  
 
   .promo-details h2 {
     color: #fff;
@@ -322,10 +326,6 @@ a:active {
   .promo-details p {
     color: #fff;
     font-size: 24px; }
-  .promo-details a {
-    color: #fff !important;
-    text-decoration: underline !important; 
-  }  
 
 /*--
     Feature-list start
