@@ -92,11 +92,11 @@ theme = "vex-hugo"
 
   [params.promo]
     title = "What is an unconference?"
-    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! Modeled on [rOpenSci unconfs](https://ropensci.org/blog/2018/06/05/unconf18/), at the Uncoast Unconf, R users and developers of all different backgrounds and levels will come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. For more on this type of unconference, see [this post](https://ropensci.org/blog/2017/11/17/unconf-sixtips/)."
+    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! Modeled on <a href='https://ropensci.org/blog/2018/06/05/unconf18/' style='color: #fff;text-decoration:underline;'>rOpenSci unconfs</a>, at the Uncoast Unconf, R users and developers of all different backgrounds and levels will come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. For more on this type of unconference, see <a href='https://ropensci.org/blog/2017/11/17/unconf-sixtips/' style='color: #fff;text-decoration:underline;'>this post</a>"
     [params.promo.image]
       path = "images/karthik-runconf17.png"
       alt = "What is an unconf?"
-      text = "Photo credit: Karthik Ram, [ROpenSci](https://ropensci.org/)"
+      text = "Photo credit: Karthik Ram, <a href='https://ropensci.org/' style='color: #fff;text-decoration:underline;'>ROpenSci</a>"
 
   [params.feature_list]
     title = "Participants"
