@@ -96,7 +96,7 @@ theme = "vex-hugo"
     [params.promo.image]
       path = "images/karthik-runconf17.png"
       alt = "What is an unconf?"
-      text = "Photo credit: Karthik Ram, <a href='https://ropensci.org/' style='color: #fff;text-decoration:underline;'>ROpenSci</a>"
+      text = "Photo credit: Karthik Ram, <a href='https://ropensci.org/' style='color: #fff;text-decoration:underline;'>rOpenSci</a>"
 
   [params.feature_list]
     title = "Participants"
