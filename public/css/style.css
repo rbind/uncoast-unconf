@@ -337,7 +337,7 @@ a:active {
   border-radius: 50%;
   vertical-align: middle;
 }  
-.feature-list .phead img{
+.feature-list img.phead{
   height: 300px;
   width: 300px;
 }
