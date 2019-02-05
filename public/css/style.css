@@ -337,6 +337,10 @@ a:active {
   border-radius: 50%;
   vertical-align: middle;
 }  
+.feature-list .phead img{
+  height: 300px;
+  width: 300px;
+}
 
 .feature-list p{
   font-size: 18px;
