@@ -28,9 +28,9 @@ theme = "vex-hugo"
     [[params.navbar.menu]]
       link = "#sponsors"
       text = "SPONSORS"
-    [[params.navbar.menu]]
-      link = "http://bit.ly/uncoastUnconf19"
-      text = "APPLY"
+#    [[params.navbar.menu]]
+#      link = "http://bit.ly/uncoastUnconf19"
+#      text = "APPLY"
     [[params.navbar.menu]]
       link = "mailto:sctyner@iastate.edu"
       text = "CONTACT"
@@ -48,9 +48,9 @@ theme = "vex-hugo"
     [params.header.image]
       path = "images/templogo.png"
       alt = "Uncoastal"
-    [params.header.button]
-      link = "http://bit.ly/uncoastUnconf19" # in draft status rn.
-      text = "Apply here!"
+#    [params.header.button]
+#      link = "http://bit.ly/uncoastUnconf19" # in draft status rn.
+#      text = "Apply here!"
       # want button to have color #135FB2 and color #BEC0C3 on hover
 
   # about
@@ -144,8 +144,10 @@ theme = "vex-hugo"
     images = ["ropensci-unconf17-checkers-nistara-randhawa.png", "mauro-runconf18-1.png", "mauro-runconf18-5.png", "mauro-runconf18-2.png", "mauro-runconf18-3.png", "mauro-runconf18-6.png", "mauro-runconf18-7.png"]
 
   [params.call_to_action]
-    title = "Sponsors"
-    text = "The Uncoast Unconference is currently seeking sponsors for this year's event. If you have questions about sponsorship or your organization is interested in becoming a sponsor, please email Sam Tyner at sctyner [at] iastate [dot] edu."
+    title = "Thank you to our sponsors!"
+    text = "If you have questions about sponsorship or your organization is interested in becoming a sponsor, please email Sam Tyner at sctyner [at] iastate [dot] edu."
+    directory = "images/sponsors"
+    images = ["schneider.png"]
 
 
   [params.testimonials]
