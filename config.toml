@@ -128,7 +128,14 @@ theme = "vex-hugo"
       subtitle = "Location: Minneapolis, Minnesota"
       text = "Winston Chang is a software engineer at RStudio who works primarily on Shiny and web-related technologies. In the past, he also contributed to the ggplot2 and devtools packages. The second edition of his book, R Graphics Cookbook, has recently been published. Winston has a Ph.D. in Psychology from Northwestern University. When he's not doing stuff with R, he spends most of his time with his family, takes photos, and tries to build things out of wood."
       button_link = "https://github.com/wch"
-      button_text = "Winston's Github" 
+      button_text = "Winston's Github"
+    [[params.feature_list.items]]
+      image = "images/haley-headshot.png"
+      title = "Haley Jeppson"
+      subtitle = "Location: Ames, Iowa"
+      text = "Haley is a PhD student in Statistics at Iowa State University. Her primary research interests are data visualization, exploratory data analysis, and interactive statistical graphics. She is also the author of the ggmosaic package, has led several R workshops, and is an active member of R-Ladies Ames. When she's not making beautiful plots in R, she is caring for her many houseplants, her dog Otis, and her chickens. #rchickenladies"
+      button_link = "https://github.com/haleyjeppson"
+      button_text = "Haley's Github"
 
 
 
