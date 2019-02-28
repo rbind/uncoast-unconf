@@ -154,7 +154,7 @@ theme = "vex-hugo"
     title = "Thank you to our sponsors!"
     text = "If you have questions about sponsorship or your organization is interested in becoming a sponsor, please email Sam Tyner at sctyner [at] iastate [dot] edu."
     directory = "images/sponsors"
-    images = ["schneider.png"]
+    images = ["schneider.png", "rstudio.png", "csafe.png"]
 
 
   [params.testimonials]
