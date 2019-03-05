@@ -136,6 +136,13 @@ theme = "vex-hugo"
       text = "Haley is a PhD student in Statistics at Iowa State University. Her primary research interests are data visualization, exploratory data analysis, and interactive statistical graphics. She is also the author of the ggmosaic package, has led several R workshops, and is an active member of R-Ladies Ames. When she's not making beautiful plots in R, she is caring for her many houseplants, her dog Otis, and her chickens. #rchickenladies"
       button_link = "https://github.com/haleyjeppson"
       button_text = "Haley's Github"
+    [[params.feature_list.items]]
+      image = "images/luke-headshot.png"
+      title = "Luke Tierney"
+      subtitle = "Location: Iowa City, Iowa"
+      text = "Luke is a professor in the Department of Statistics and Actuarial Science at the University of Iowa. He has worked on computational methodology for Bayesian inference and on computing environments for data analysis and graphics. He has is member of R-core and works mostly in infrastructure and language features."
+      button_link = "http://homepage.divms.uiowa.edu/~luke/"
+      button_text = "Luke's Website"
 
 
 
