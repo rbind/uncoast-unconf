@@ -503,3 +503,100 @@ footer {
       color: #282828; }
       footer p.copyright-text a:hover {
         text-decoration: none; }
+        
+.team-member {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 3px solid #135FB2;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+.team-member h3 {
+    text-transform: none;
+    font-weight: 600;
+    color: #333;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.team-member h4 {
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 16px;
+}
+
+.team-member h4 a {
+    text-transform: none;
+}
+
+.team-member h5 {
+    font-size: 18px;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 0px;
+    color: #777;
+    margin-bottom: 1px
+}
+
+.team-member .report  {
+    margin-top: 0px;
+}
+
+.team-member h5 a {
+    text-transform: none;
+}
+
+.team-member ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+ul.social-buttons {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ul.social-buttons li a {
+    color: #135FB2;
+    background-color: #fff;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    outline: 0;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}

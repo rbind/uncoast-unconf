@@ -98,51 +98,66 @@ theme = "vex-hugo"
       alt = "What is an unconf?"
       text = "Photo credit: Karthik Ram, <a href='https://ropensci.org/' style='color: #fff;text-decoration:underline;'>rOpenSci</a>"
 
-  [params.feature_list]
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
     title = "Participants"
-    subtitle = "Additional participants will be added as they are confirmed."
-    [[params.feature_list.items]]
-      image = "https://pbs.twimg.com/profile_images/205337390/robstat_400x400.png" 
-      title = "Yihui Xie"
-      subtitle = "Location: Omaha, Nebraska"
-      text = "Yihui Xie is a software engineer at RStudio. He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as knitr, bookdown, blogdown, xaringan, tinytex, animation, DT, tufte, formatR, fun, xfun, mime, highr, servr, and Rd2roxygen, among which the animation package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including shiny, rmarkdown, and leaflet. He has authored two books, Dynamic Documents with knitr (Xie 2015), and bookdown: Authoring Books and Technical Documents with R Markdown (Xie 2016), and co-authored two book, blogdown: Creating Websites with R Markdown (Xie, Hill, and Thomas 2017), and R Markdown: The Definitive Guide (Xie, Allaire, and Grolemund 2018)." # more bio? 
-      button_link = "https://yihui.name"
-      button_text = "Yihui's Website"
-    [[params.feature_list.items]]
-      image = "images/amelia-headshot.png"
-      title = "Amelia McNamara"
-      subtitle = "Location: St. Paul, Minnesota"
-      text = "Amelia is an assistant professor in the department of Computer & Information Sciences at the the University of St Thomas. Previously, she taught in the Program in Statistical and Data Sciences at Smith College. Her research interests include statistical computing, data visualization, statistics education, and reproducible research. She holds a BA in English and math from Macalester College, and a PhD in statistics from the University of California, Los Angeles."
-      button_link = "http://www.amelia.mn/"
-      button_text = "Amelia's Website"
-    [[params.feature_list.items]]
-      image = "images/carson-headshot.png"
-      title = "Carson Sievert"
-      subtitle = "Location: Minneapolis, Minnesota"
-      text = "Carson brings a PhD in statistics to his engineering role at RStudio with the goal of delivering better data visualization and statistical computing tools to scientists and analysts. His work on the R package plotly for interactive data visualization was recognized by the ASA with the 2017 Chambers Award. He has authored several other R packages including: LDAvis, animint, pitchRx, rdom, and XML2R. Prior to joining RStudio, Carson ran a consulting business delivering data-driven software products and training services to organizations such as the Library of Congress, NOAA, and Sandia National Labs."
-      button_link = "https://cpsievert.me/"
-      button_text = "Carson's Website"
-    [[params.feature_list.items]]
-      image = "images/winston-headshot.png"
-      title = "Winston Chang"
-      subtitle = "Location: Minneapolis, Minnesota"
-      text = "Winston Chang is a software engineer at RStudio who works primarily on Shiny and web-related technologies. In the past, he also contributed to the ggplot2 and devtools packages. The second edition of his book, R Graphics Cookbook, has recently been published. Winston has a Ph.D. in Psychology from Northwestern University. When he's not doing stuff with R, he spends most of his time with his family, takes photos, and tries to build things out of wood."
-      button_link = "https://github.com/wch"
-      button_text = "Winston's Github"
-    [[params.feature_list.items]]
-      image = "images/haley-headshot.png"
-      title = "Haley Jeppson"
-      subtitle = "Location: Ames, Iowa"
-      text = "Haley is a PhD student in Statistics at Iowa State University. Her primary research interests are data visualization, exploratory data analysis, and interactive statistical graphics. She is also the author of the ggmosaic package, has led several R workshops, and is an active member of R-Ladies Ames. When she's not making beautiful plots in R, she is caring for her many houseplants, her dog Otis, and her chickens. #rchickenladies"
-      button_link = "https://github.com/haleyjeppson"
-      button_text = "Haley's Github"
-    [[params.feature_list.items]]
-      image = "images/luke-headshot.png"
-      title = "Luke Tierney"
-      subtitle = "Location: Iowa City, Iowa"
-      text = "Luke is a professor in the Department of Statistics and Actuarial Science at the University of Iowa. He has worked on computational methodology for Bayesian inference and on computing environments for data analysis and graphics. He has is member of R-core and works mostly in infrastructure and language features."
-      button_link = "http://homepage.divms.uiowa.edu/~luke/"
-      button_text = "Luke's Website"
+    # How would you describe your participants? What are they bringing to your event
+    text = "Our participants represent the wide variety of skills and experience of all R users, from beginners to a member of R-Core. They come from industry, academia, and government,  and we are proud to bring such a diverse group of R users and developers together in the middle of America."
+
+    # All team member's pictures should be stored under 'static/img/team'.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    
+    [[params.team.members]] # create one of these for each of your participants
+      name = "Yihui Xie"
+      position = "RStudio"
+      livesIn = "Nebraska"
+      img = "yihui-headshot.png" # e.g. firstname-lastname.png 
+      twitter = "xieyihui" # handle only. (not a URL, no @)
+      github = "yihui" # handle only. (not a URL, no @)
+      url = "https://yihui.name/en/" # A URL 
+   
+    [[params.team.members]] # create one of these for each of your participants
+      name = "Amelia McNamara"
+      position = "University of St. Thomas"
+      livesIn = "Minnesota"
+      img = "amelia-headshot.png" # e.g. firstname-lastname.png 
+      twitter = "AmeliaMN" # handle only. (not a URL, no @)
+      github = "AmeliaMN" # handle only. (not a URL, no @)
+      url = "http://www.amelia.mn/" # A URL   
+      
+    [[params.team.members]]
+      name = "Carson Sievert"
+      position = "RStudio"
+      livesIn = "Minnesota"
+      img = "carson-headshot.png"
+      twitter = "cpsievert"
+      github = "cpsievert"
+      url = "https://cpsievert.me/"
+
+    [[params.team.members]]
+      name = "Winston Chang"
+      position = "RStudio"
+      livesIn = "Minnesota"
+      img =  "winston-headshot.png"
+      twitter = "winston_chang"
+      github = "wch"
+
+    [[params.team.members]]
+      name = "Luke Tierney"
+      position = "University of Iowa"
+      livesIn = "Iowa"
+      img = "luke-headshot.png"      
+      website = "http://homepage.divms.uiowa.edu/~luke/"
+      
+    [[params.team.members]]
+      name = "Haley Jeppson"
+      position = "Iowa State University"
+      livesIn = "Iowa"
+      img = "haley-headshot.png"
+      github = "haleyjeppson"
+      twitter = "heyhayhay__"
 
 
 
