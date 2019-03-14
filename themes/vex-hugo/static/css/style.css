@@ -511,13 +511,11 @@ footer {
     text-align: center;
 }
 
-.team-member-img {
-    margin: 0 auto !important;
-    border: 3px solid #135FB2 !important;
-    border-radius: 50% !important;
-    vertical-align: middle !important;
-    margin-bottom: 10px !important;
-}
+.team-member .phead{
+  border: 3px solid #135FB2;
+  border-radius: 50%;
+  vertical-align: middle;
+} 
 
 .team-member p {
     margin-top: 0;
