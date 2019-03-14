@@ -105,7 +105,7 @@ theme = "vex-hugo"
     title = "Participants"
     # How would you describe your participants? What are they bringing to your event
     text = "Our participants represent the wide variety of skills and experience of all R users, from beginners to a member of R-Core. They come from industry, academia, and government,  and we are proud to bring such a diverse group of R users and developers together in the middle of America."
-
+    directory = "images/team"
     # All team member's pictures should be stored under 'static/img/team'.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     
