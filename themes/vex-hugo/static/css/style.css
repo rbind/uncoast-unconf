@@ -511,10 +511,13 @@ footer {
     text-align: center;
 }
 
-.team-member .phead{
-  border: 3px solid #135FB2;
+.team-member .phead2{
+  border: 4px solid #135FB2;
   border-radius: 50%;
   vertical-align: middle;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
 } 
 
 .team-member p {

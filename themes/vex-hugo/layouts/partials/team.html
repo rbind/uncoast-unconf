@@ -19,25 +19,25 @@
         <div class="col-sm-4 col text-center">
           <div class="team-member">
             <a href="{{ .url }}">
-            <img class="phead" src="images/team/{{ .img }}" alt="{{ .name }}" height=150 width=150>
-            <h3>{{ .name | markdownify }}</h3>
+            <img class="phead2" src="images/team/{{ .img }}" alt="{{ .name }}" height="150px" width="150px">
+            <h3 style="color: #333;">{{ .name | markdownify }}</h3>
             
             {{ with .position }}
-            <h4>{{ . | markdownify }}</h4>
+            <h4 style="color: #333;">{{ . | markdownify }}</h4>
             {{ end }}
 
             {{ with .livesIn }}
-            <h5>Lives in {{ . | markdownify }}</h5>
+            <h5 style="color: #333;">Lives in {{ . | markdownify }}</h5>
             {{ end }}
             
             </a>
 
             <ul class="list-inline social-buttons">
             {{ with .twitter }}
-            <li><a href="http://twitter.com/{{ . }}"><i class="tf-ion-social-twitter"></i></a></li>
+            <li><a href="http://twitter.com/{{ . }}"><i style="color: #135FB2;" class="tf-ion-social-twitter"></i></a></li>
             {{ end }}
             {{ with .github }}
-            <li><a href="http://github.com/{{ . }}"><i class="tf-ion-social-github"></i></a></li>
+            <li><a href="http://github.com/{{ . }}"><i style="color: #135FB2;" class="tf-ion-social-github"></i></a></li>
             {{ end }}
             </ul>
 
