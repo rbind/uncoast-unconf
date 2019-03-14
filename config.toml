@@ -44,7 +44,7 @@ theme = "vex-hugo"
   # Header
   [params.header]
     title = "The Uncoast Unconference"
-    text = "Bringing R users and developers together in flyover country."
+    text = "Bringing R users and developers together in flyover country.<br>See what we'll be working on, and contribute a project idea on [Github](https://github.com/uncoast-unconf/uu-2019/issues)!"
     [params.header.image]
       path = "images/templogo.png"
       alt = "Uncoastal"

@@ -13,7 +13,7 @@
           <div class="col-md-6">
             <div class="block">
               <h1 class="">{{ .title }}</h1>
-              <p>{{ .text }}</p>
+              <p>{{ .text | markdownify }}</p>
             {{- with .button }}
               <a class="btn btn-main" href="{{ .link }}" role="button">{{ .text }}</a>
             {{- end }}
