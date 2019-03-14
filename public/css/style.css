@@ -587,7 +587,7 @@ ul.social-buttons {
 ul.social-buttons li a {
     color: #135FB2;
     background-color: #fff;
-    display: block;
+    display: inline-block;
     width: 30px;
     height: 30px;
     border-radius: 100%;
