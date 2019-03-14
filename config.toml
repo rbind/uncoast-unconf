@@ -159,7 +159,320 @@ theme = "vex-hugo"
       github = "haleyjeppson"
       twitter = "heyhayhay__"
 
+[[params.team.members]] 
+      name = "Nik Agarwal"
+      position = "John Deere"
+      livesIn = "Iowa"
+      img = "Nikhil-Agarwal.jpeg" 
+      twitter = "nikagarwal" 
+      github = "nikdata" 
+      url = "https://github.com/nikdata"
 
+    [[params.team.members]] 
+      name = "Erica Baken"
+      position = "Iowa State University"
+      livesIn = "Iowa"
+      img = "Erica-Baken.jpeg" 
+      twitter = "BakenErica" 
+      github = "" 
+      url = "https://ericabaken.weebly.com/"
+
+    [[params.team.members]] 
+      name = "Pacis Bana"
+      position = "Creighton University"
+      livesIn = "Nebraska"
+      img = "Pacis-Bana.jpeg" 
+      twitter = "paciis" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "David Body"
+      position = "Big Creek Software, LLC"
+      livesIn = "Iowa"
+      img = "David-Body.png" 
+      twitter = "david_body" 
+      github = "davidbody" 
+      url = "https://www.bigcreek.com/"
+
+    [[params.team.members]] 
+      name = "Gio Chighladze"
+      position = "Iowa State University"
+      livesIn = "Iowa"
+      img = "Giorgi-Chighladze.png" 
+      twitter = "giorgichi" 
+      github = "giorgichi" 
+      url = ""
+      
+    [[params.team.members]] 
+      name = "Ben Crary"
+      position = "LimnoTech"
+      livesIn = "Minnesota"
+      img = "Ben-Crary.png" 
+      twitter = "crary016" 
+      github = "benjamincrary" 
+      url = ""  
+
+    [[params.team.members]] 
+      name = "Noori Dabbish"
+      position = "Blue Cross Blue Shield of Illinois"
+      livesIn = "Pennsylvania"
+      img = "templogo.png" 
+      twitter = "" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Ranae Dietzel"
+      position = "Iowa State University"
+      livesIn = "Iowa"
+      img = "Ranae-Dietzel.jpeg" 
+      twitter = "RanaeDietzel" 
+      github = "Ranae" 
+      url = "http://ranae.github.io/"
+
+    [[params.team.members]] 
+      name = "Anne Eaton"
+      position = "University of Minnesota"
+      livesIn = "Minnesota"
+      img = "Anne-Eaton.png" 
+      twitter = "" 
+      github = "anneae" 
+      url = "https://sites.google.com/a/umn.edu/anne-eaton/"
+
+    [[params.team.members]] 
+      name = "Jeffrey Fletcher"
+      position = "Iowa Department of Education"
+      livesIn = "Iowa"
+      img = "templogo.png" 
+      twitter = "drjeff_fletcher" 
+      github = "DrFletch" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Greg Freedman Ellis"
+      position = "University of Minnesota - IPUMS"
+      livesIn = "Minnesota"
+      img = "Greg-Freedman Ellis.png" 
+      twitter = "gregfreedman" 
+      github = "gergness" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Amanda Gadrow"
+      position = "RStudio"
+      livesIn = "Ohio"
+      img = "Amanda-Gadrow.png" 
+      twitter = "ajmcoqui" 
+      github = "ajmcoqui" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Matt Harmston"
+      position = "ACT, Inc."
+      livesIn = "Iowa"
+      img = "Matt-Harmston.png" 
+      twitter = "" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Michelle Kosmicki"
+      position = "Strategic America"
+      livesIn = "Iowa"
+      img = "Michelle-Kosmicki.png" 
+      twitter = "mkosmicki" 
+      github = "mkosmicki" 
+      url = "https://github.com/mkosmicki"
+
+    [[params.team.members]] 
+      name = "Brandon LeBeau"
+      position = "University of Iowa"
+      livesIn = "Iowa"
+      img = "Brandon-LeBeau.png" 
+      twitter = "blebeau11" 
+      github = "lebebr01" 
+      url = "https://brandonlebeau.org/"
+
+    [[params.team.members]] 
+      name = "Heather Lendway"
+      position = "3M"
+      livesIn = "Minnesota"
+      img = "templogo.png" 
+      twitter = "Heatherlendway" 
+      github = "Hlendway" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Alison Link"
+      position = "University of Minnesota"
+      livesIn = "Minnesota"
+      img = "Alison-Link.png" 
+      twitter = "linkalis" 
+      github = "linkalis" 
+      url = "http://alison.link"
+
+    [[params.team.members]] 
+      name = "Karsten Maurer"
+      position = "Miami University"
+      livesIn = "Ohio"
+      img = "Karsten-Maurer.png" 
+      twitter = "NA" 
+      github = "kmaurer" 
+      url = "http://kmaurer.github.io/"
+
+    [[params.team.members]] 
+      name = "Audrey McCombs"
+      position = "Iowa State University"
+      livesIn = "Iowa"
+      img = "templogo.png" 
+      twitter = "" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Charles Minshew"
+      position = "Investigative Reporters & Editors"
+      livesIn = "Missouri"
+      img = "Charles-Minshew.png" 
+      twitter = "CharlesMinshew" 
+      github = "charlesminshew" 
+      url = "https://www.ire.org"
+
+    [[params.team.members]] 
+      name = "Jo Papio"
+      position = "The Ohio State University"
+      livesIn = "Ohio"
+      img = "templogo.png" 
+      twitter = "" 
+      github = "joepapio" 
+      url = "https://www.linkedin.com/in/joe-papio-223811143/"
+
+    [[params.team.members]] 
+      name = "Val Quirino"
+      position = "John Deere & MSU Moorehead"
+      livesIn = "Minnesota"
+      img = "Valquiria-Quirino.jpeg" 
+      twitter = "" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Amanda Rae"
+      position = "R-Ladies Des Moines"
+      livesIn = "Iowa"
+      img = "templogo.png" 
+      twitter = "amandarae50312" 
+      github = "AmandaRaeISU" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Alexis Saltzman"
+      position = "University of Nebraska - Lincoln"
+      livesIn = "Nebraska"
+      img = "Alexis-Saltzman.png" 
+      twitter = "UUnconf" 
+      github = "" 
+      url = "https://www.linkedin.com/in/alexis-saltzman-2916b7100/"
+
+    [[params.team.members]] 
+      name = "Matthew Seegebarth"
+      position = "Nebraska Public Power District"
+      livesIn = "Nebraska"
+      img = "templogo.png" 
+      twitter = "" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Darvish Shadravan"
+      position = "Salesforce.com"
+      livesIn = "Iowa"
+      img = "Darvish-Shadravan.png" 
+      twitter = "dshadravan" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "John Shukle"
+      position = "Indiana University - Indianapolis"
+      livesIn = "Indiana"
+      img = "templogo.png" 
+      twitter = "UUnconf" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Darrin Speegle"
+      position = "Saint Louis University"
+      livesIn = "Missouri"
+      img = "Darrin-Speegle.png" 
+      twitter = "speegled" 
+      github = "speegled" 
+      url = "http://stat.slu.edu/~speegle/"
+
+    [[params.team.members]] 
+      name = "Larissa Stanberry"
+      position = "Minneapolis Heart Inst. Foundation"
+      livesIn = "Minnesota"
+      img = "templogo.png" 
+      twitter = "" 
+      github = "" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Geoffrey Thompson"
+      position = "Iowa State University"
+      livesIn = "Iowa"
+      img = "Geoffrey-Thompson.png" 
+      twitter = "" 
+      github = "gzt" 
+      url = "https://gzt.github.io"
+
+    [[params.team.members]] 
+      name = "Ellis Valentiner"
+      position = "Powerley, Ann Arbor RUG"
+      livesIn = "Michigan"
+      img = "templogo.png" 
+      twitter = "ellisvalentiner" 
+      github = "ellisvalentiner" 
+      url = "https://ellisvalentiner.com"
+
+    [[params.team.members]] 
+      name = "Craig Van Pay"
+      position = "Iowa State University"
+      livesIn = "Iowa"
+      img = "Craig-Van Pay.png" 
+      twitter = "CKVanPay" 
+      github = "CVanPay" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Kathleen Wendt"
+      position = "Colorado State University"
+      livesIn = "Colorado"
+      img = "Kathleen-Wendt.png" 
+      twitter = "KathleenWendt8" 
+      github = "wendtke" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Kevin Wright"
+      position = "Corteva Agriscience"
+      livesIn = "Iowa"
+      img = "Kevin-Wright.png" 
+      twitter = "kw_stat" 
+      github = "kwstat" 
+      url = ""
+
+    [[params.team.members]] 
+      name = "Siqi Zhang"
+      position = "Self-Employed"
+      livesIn = "Pennsylvania"
+      img = "templogo.png" 
+      twitter = "iqis_gnahz" 
+      github = "iqis" 
+      url = ""
 
   [params.gallery]
     title = "Other Unconfs Past & Future"
