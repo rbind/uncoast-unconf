@@ -16,7 +16,7 @@
     </div>
     <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.team.members }}
-        <div class="col-sm-4 col">
+        <div class="col-sm-4 col text-center">
           <div class="team-member">
             <a href="{{ .url }}">
             <img src="images/team/{{ .img }}" alt="{{ .name }}" height=150 width=150>
