@@ -511,7 +511,7 @@ footer {
     text-align: center;
 }
 
-.team-member img {
+.team-member a img {
     margin: 0 auto;
     border: 3px solid #135FB2;
     border-radius: 50%;
