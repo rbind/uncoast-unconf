@@ -350,7 +350,7 @@ theme = "vex-hugo"
 
     [[params.team.members]] 
       name = "Val Quirino"
-      position = "John Deere & MSU Moorhead"
+      position = "John Deere (Contracted)"
       livesIn = "Minnesota"
       img = "Valquiria-Quirino.jpeg" 
       twitter = "" 
