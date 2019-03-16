@@ -3,7 +3,13 @@ title: Day-Zero Preparation
 date: 2019-03-16
 ---
 
-Hi there.
- 
-Day-zero.
+```{r}
+# please install_github("ijlyttle/vembedr")
+library("vembedr")
+```
 
+```{r}
+rickroll_youtube() %>%
+  use_align("center") %>%
+  use_rounded()
+```
