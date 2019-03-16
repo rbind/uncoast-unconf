@@ -1,4 +1,4 @@
-baseurl = "https://uncoast-unconf.netlify.com" # need to change once get rbind.io set up.
+baseurl = "https://uuconf.rbind.io/"
 languageCode = "en"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 title = "Uncoast Unconf"
@@ -108,25 +108,25 @@ theme = "vex-hugo"
     directory = "images/team"
     # All team member's pictures should be stored under 'static/img/team'.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    
+
     [[params.team.members]] # create one of these for each of your participants
       name = "Yihui Xie"
       position = "RStudio"
       livesIn = "Nebraska"
-      img = "yihui-headshot.png" # e.g. firstname-lastname.png 
+      img = "yihui-headshot.png" # e.g. firstname-lastname.png
       twitter = "xieyihui" # handle only. (not a URL, no @)
       github = "yihui" # handle only. (not a URL, no @)
-      url = "https://yihui.name/en/" # A URL 
-   
+      url = "https://yihui.name/en/" # A URL
+
     [[params.team.members]] # create one of these for each of your participants
       name = "Amelia McNamara"
       position = "University of St. Thomas"
       livesIn = "Minnesota"
-      img = "amelia-headshot.png" # e.g. firstname-lastname.png 
+      img = "amelia-headshot.png" # e.g. firstname-lastname.png
       twitter = "AmeliaMN" # handle only. (not a URL, no @)
       github = "AmeliaMN" # handle only. (not a URL, no @)
-      url = "http://www.amelia.mn/" # A URL   
-      
+      url = "http://www.amelia.mn/" # A URL
+
     [[params.team.members]]
       name = "Carson Sievert"
       position = "RStudio"
@@ -148,9 +148,9 @@ theme = "vex-hugo"
       name = "Luke Tierney"
       position = "University of Iowa"
       livesIn = "Iowa"
-      img = "luke-headshot.png"      
+      img = "luke-headshot.png"
       website = "http://homepage.divms.uiowa.edu/~luke/"
-      
+
     [[params.team.members]]
       name = "Haley Jeppson"
       position = "Iowa State University"
@@ -159,319 +159,319 @@ theme = "vex-hugo"
       github = "haleyjeppson"
       twitter = "heyhayhay__"
 
-[[params.team.members]] 
+[[params.team.members]]
       name = "Nik Agarwal"
       position = "John Deere"
       livesIn = "Iowa"
-      img = "Nikhil-Agarwal.jpeg" 
-      twitter = "nikagarwal" 
-      github = "nikdata" 
+      img = "Nikhil-Agarwal.jpeg"
+      twitter = "nikagarwal"
+      github = "nikdata"
       url = "https://github.com/nikdata"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Erica Baken"
       position = "Iowa State University"
       livesIn = "Iowa"
-      img = "Erica-Baken.jpeg" 
-      twitter = "BakenErica" 
-      github = "" 
+      img = "Erica-Baken.jpeg"
+      twitter = "BakenErica"
+      github = ""
       url = "https://ericabaken.weebly.com/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Pacis Bana"
       position = "Creighton University"
       livesIn = "Nebraska"
-      img = "Pacis-Bana.jpeg" 
-      twitter = "paciis" 
-      github = "" 
+      img = "Pacis-Bana.jpeg"
+      twitter = "paciis"
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "David Body"
       position = "Big Creek Software, LLC"
       livesIn = "Iowa"
-      img = "David-Body.png" 
-      twitter = "david_body" 
-      github = "davidbody" 
+      img = "David-Body.png"
+      twitter = "david_body"
+      github = "davidbody"
       url = "https://www.bigcreek.com/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Gio Chighladze"
       position = "Iowa State University"
       livesIn = "Iowa"
-      img = "Giorgi-Chighladze.png" 
-      twitter = "giorgichi" 
-      github = "giorgichi" 
+      img = "Giorgi-Chighladze.png"
+      twitter = "giorgichi"
+      github = "giorgichi"
       url = ""
-      
-    [[params.team.members]] 
+
+    [[params.team.members]]
       name = "Ben Crary"
       position = "LimnoTech"
       livesIn = "Minnesota"
-      img = "Ben-Crary.png" 
-      twitter = "crary016" 
-      github = "benjamincrary" 
-      url = ""  
+      img = "Ben-Crary.png"
+      twitter = "crary016"
+      github = "benjamincrary"
+      url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Noori Dabbish"
       position = "Blue Cross Blue Shield of Illinois"
       livesIn = "Pennsylvania"
-      img = "templogo.png" 
-      twitter = "" 
-      github = "" 
+      img = "templogo.png"
+      twitter = ""
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Ranae Dietzel"
       position = "Iowa State University"
       livesIn = "Iowa"
-      img = "Ranae-Dietzel.jpeg" 
-      twitter = "RanaeDietzel" 
-      github = "Ranae" 
+      img = "Ranae-Dietzel.jpeg"
+      twitter = "RanaeDietzel"
+      github = "Ranae"
       url = "http://ranae.github.io/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Anne Eaton"
       position = "University of Minnesota"
       livesIn = "Minnesota"
-      img = "Anne-Eaton.png" 
-      twitter = "" 
-      github = "anneae" 
+      img = "Anne-Eaton.png"
+      twitter = ""
+      github = "anneae"
       url = "https://sites.google.com/a/umn.edu/anne-eaton/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Jeffrey Fletcher"
       position = "Iowa Department of Education"
       livesIn = "Iowa"
-      img = "Jeffrey-Fletcher.png" 
-      twitter = "drjeff_fletcher" 
-      github = "DrFletch" 
+      img = "Jeffrey-Fletcher.png"
+      twitter = "drjeff_fletcher"
+      github = "DrFletch"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Greg Freedman Ellis"
       position = "University of Minnesota - IPUMS"
       livesIn = "Minnesota"
-      img = "Greg-Freedman Ellis.png" 
-      twitter = "gregfreedman" 
-      github = "gergness" 
+      img = "Greg-Freedman Ellis.png"
+      twitter = "gregfreedman"
+      github = "gergness"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Amanda Gadrow"
       position = "RStudio"
       livesIn = "Ohio"
-      img = "Amanda-Gadrow.png" 
-      twitter = "ajmcoqui" 
-      github = "ajmcoqui" 
+      img = "Amanda-Gadrow.png"
+      twitter = "ajmcoqui"
+      github = "ajmcoqui"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Matt Harmston"
       position = "ACT, Inc."
       livesIn = "Iowa"
-      img = "Matt-Harmston.png" 
-      twitter = "" 
-      github = "" 
+      img = "Matt-Harmston.png"
+      twitter = ""
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Michelle Kosmicki"
       position = "Strategic America"
       livesIn = "Iowa"
-      img = "Michelle-Kosmicki.png" 
-      twitter = "mkosmicki" 
-      github = "mkosmicki" 
+      img = "Michelle-Kosmicki.png"
+      twitter = "mkosmicki"
+      github = "mkosmicki"
       url = "https://github.com/mkosmicki"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Brandon LeBeau"
       position = "University of Iowa"
       livesIn = "Iowa"
-      img = "Brandon-LeBeau.png" 
-      twitter = "blebeau11" 
-      github = "lebebr01" 
+      img = "Brandon-LeBeau.png"
+      twitter = "blebeau11"
+      github = "lebebr01"
       url = "https://brandonlebeau.org/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Heather Lendway"
       position = "3M"
       livesIn = "Minnesota"
-      img = "Heather-Lendway.png" 
-      twitter = "Heatherlendway" 
-      github = "Hlendway" 
+      img = "Heather-Lendway.png"
+      twitter = "Heatherlendway"
+      github = "Hlendway"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Alison Link"
       position = "University of Minnesota"
       livesIn = "Minnesota"
-      img = "Alison-Link.png" 
-      twitter = "linkalis" 
-      github = "linkalis" 
+      img = "Alison-Link.png"
+      twitter = "linkalis"
+      github = "linkalis"
       url = "http://alison.link"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Karsten Maurer"
       position = "Miami University"
       livesIn = "Ohio"
-      img = "Karsten-Maurer.png" 
-      twitter = "NA" 
-      github = "kmaurer" 
+      img = "Karsten-Maurer.png"
+      twitter = "NA"
+      github = "kmaurer"
       url = "http://kmaurer.github.io/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Audrey McCombs"
       position = "Iowa State University"
       livesIn = "Iowa"
-      img = "templogo.png" 
-      twitter = "" 
-      github = "" 
+      img = "templogo.png"
+      twitter = ""
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Charles Minshew"
       position = "Investigative Reporters & Editors"
       livesIn = "Missouri"
-      img = "Charles-Minshew.png" 
-      twitter = "CharlesMinshew" 
-      github = "charlesminshew" 
+      img = "Charles-Minshew.png"
+      twitter = "CharlesMinshew"
+      github = "charlesminshew"
       url = "https://www.ire.org"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Jo Papio"
       position = "The Ohio State University"
       livesIn = "Ohio"
-      img = "templogo.png" 
-      twitter = "" 
-      github = "joepapio" 
+      img = "templogo.png"
+      twitter = ""
+      github = "joepapio"
       url = "https://www.linkedin.com/in/joe-papio-223811143/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Val Quirino"
       position = "John Deere (Contracted)"
       livesIn = "Minnesota"
-      img = "Valquiria-Quirino.jpeg" 
-      twitter = "" 
-      github = "" 
+      img = "Valquiria-Quirino.jpeg"
+      twitter = ""
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Amanda Rae"
       position = "R-Ladies Des Moines"
       livesIn = "Iowa"
-      img = "templogo.png" 
-      twitter = "amandarae50312" 
-      github = "AmandaRaeISU" 
+      img = "templogo.png"
+      twitter = "amandarae50312"
+      github = "AmandaRaeISU"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Alexis Saltzman"
       position = "University of Nebraska - Lincoln"
       livesIn = "Nebraska"
-      img = "Alexis-Saltzman.png" 
-      twitter = "UUnconf" 
-      github = "" 
+      img = "Alexis-Saltzman.png"
+      twitter = "UUnconf"
+      github = ""
       url = "https://www.linkedin.com/in/alexis-saltzman-2916b7100/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Matthew Seegebarth"
       position = "Nebraska Public Power District"
       livesIn = "Nebraska"
-      img = "templogo.png" 
-      twitter = "" 
-      github = "" 
+      img = "templogo.png"
+      twitter = ""
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Darvish Shadravan"
       position = "Salesforce.com"
       livesIn = "Iowa"
-      img = "Darvish-Shadravan.png" 
-      twitter = "dshadravan" 
-      github = "" 
+      img = "Darvish-Shadravan.png"
+      twitter = "dshadravan"
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "John Shukle"
       position = "Indiana University - Indianapolis"
       livesIn = "Indiana"
-      img = "templogo.png" 
-      twitter = "UUnconf" 
-      github = "" 
+      img = "templogo.png"
+      twitter = "UUnconf"
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Darrin Speegle"
       position = "Saint Louis University"
       livesIn = "Missouri"
-      img = "Darrin-Speegle.png" 
-      twitter = "speegled" 
-      github = "speegled" 
+      img = "Darrin-Speegle.png"
+      twitter = "speegled"
+      github = "speegled"
       url = "http://stat.slu.edu/~speegle/"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Larissa Stanberry"
       position = "Minneapolis Heart Inst. Foundation"
       livesIn = "Minnesota"
-      img = "templogo.png" 
-      twitter = "" 
-      github = "" 
+      img = "templogo.png"
+      twitter = ""
+      github = ""
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Geoffrey Thompson"
       position = "Iowa State University"
       livesIn = "Iowa"
-      img = "Geoffrey-Thompson.png" 
-      twitter = "" 
-      github = "gzt" 
+      img = "Geoffrey-Thompson.png"
+      twitter = ""
+      github = "gzt"
       url = "https://gzt.github.io"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Ellis Valentiner"
       position = "Powerley, Ann Arbor RUG"
       livesIn = "Michigan"
-      img = "Ellis-Valentiner.png" 
-      twitter = "ellisvalentiner" 
-      github = "ellisvalentiner" 
+      img = "Ellis-Valentiner.png"
+      twitter = "ellisvalentiner"
+      github = "ellisvalentiner"
       url = "https://ellisvalentiner.com"
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Craig Van Pay"
       position = "Iowa State University"
       livesIn = "Iowa"
-      img = "Craig-Van Pay.png" 
-      twitter = "CKVanPay" 
-      github = "CVanPay" 
+      img = "Craig-Van Pay.png"
+      twitter = "CKVanPay"
+      github = "CVanPay"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Kathleen Wendt"
       position = "Colorado State University"
       livesIn = "Colorado"
-      img = "Kathleen-Wendt.png" 
-      twitter = "KathleenWendt8" 
-      github = "wendtke" 
+      img = "Kathleen-Wendt.png"
+      twitter = "KathleenWendt8"
+      github = "wendtke"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Kevin Wright"
       position = "Corteva Agriscience"
       livesIn = "Iowa"
-      img = "Kevin-Wright.png" 
-      twitter = "kw_stat" 
-      github = "kwstat" 
+      img = "Kevin-Wright.png"
+      twitter = "kw_stat"
+      github = "kwstat"
       url = ""
 
-    [[params.team.members]] 
+    [[params.team.members]]
       name = "Siqi Zhang"
       position = "Self-Employed"
       livesIn = "Pennsylvania"
-      img = "templogo.png" 
-      twitter = "iqis_gnahz" 
-      github = "iqis" 
+      img = "templogo.png"
+      twitter = "iqis_gnahz"
+      github = "iqis"
       url = ""
 
   [params.gallery]
@@ -518,7 +518,7 @@ theme = "vex-hugo"
       text = "Angela has a background in spatial econometrics and is currently building out spatial analysis resources for applied social science research. She is a proud R-Lady and data science community builder. Learn more about Angela on her <a href='https://angela-li.github.io/'>website</a>."
       name = "Angela Li"
       position = "R Spatial Advocate, University of Chicago"
-      image = "images/angela-headshot.png"  
+      image = "images/angela-headshot.png"
     [[params.testimonials.blocks]]
       text = "Heike's primary research interests are Data Visualization, Multivariate Categorical Data Analysis, Statistical Computing, Exploratory Data Analysis and Interactive Statistical Graphics. She is also a member of the ISU Data Science Curriculum Committee."
       name = "Heike Hofmann"
