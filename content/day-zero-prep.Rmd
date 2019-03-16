@@ -3,12 +3,19 @@ title: Day-Zero Preparation
 date: 2019-03-16
 ---
 
-```{r}
+
+```{r echo=FALSE}
 # please install_github("ijlyttle/vembedr")
 library("vembedr")
 ```
 
-```{r}
+Some motivational text here.
+
+## Week of March 17
+
+Some more text about this week's goals.
+
+```{r echo=FALSE}
 rickroll_youtube() %>%
   use_align("center") %>%
   use_rounded()

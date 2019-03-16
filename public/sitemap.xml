@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/day-zero-prep/</loc>
+    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/day-zero/</loc>
     <lastmod>2019-03-16T00:00:00+00:00</lastmod>
   </url>
