@@ -610,6 +610,18 @@ ul.social-buttons li a {
     margin-bottom: 30px;
 }
 
-/* extra room for paragraphs */
+/* margin underneath article-meta*/
+.article-meta {
+    margin-bottom: 20px;
+}
+
+/* not quite-so-much padding for "level" sections */
+.section.level2,
+.section.level3,
+.section.level4,
+.section.level5,
+.section.level6 {
+  padding: 10px 0;
+}
 
 
