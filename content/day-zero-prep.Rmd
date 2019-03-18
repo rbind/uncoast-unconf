@@ -38,10 +38,12 @@ As you might imagine, you will need your login-credentials going forward.
 With each week's exercise, we plan to release a screencast video where we go through the steps ourselves.
 
 ```{r echo=FALSE}
-embed_youtube("xR6KNj4mrO4") %>%
+embed_youtube("cKk7rioLFH0") %>%
   use_align("center") %>%
   use_rounded()
 ```
+
+Special thanks to Sam Tyner and Ameila McNamara for providing feedback on drafts of this video; Amelia provided a script I was able to use verbatim: right at the start, where I'm asking for questions.
 
 Having watched the video, I may have glossed over a few things, so I want to emphasize that:
 
@@ -52,11 +54,11 @@ Having watched the video, I may have glossed over a few things, so I want to emp
 If you want to pick-and-choose topics:
 
 - Introduction: 0:00
-- RStudio IDE, macOS: 1:41
-- RStudio IDE, Windows: 4:44
-- GitHub account: 7:26
-- Github issues: 8:30
-- Summary: 10:43
+- RStudio IDE, macOS: 2:19
+- RStudio IDE, Windows: 5:22
+- GitHub account: 8:04
+- Github issues: 9:08
+- Summary: 11:21
 
 ### Verification
 
