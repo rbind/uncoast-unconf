@@ -35,6 +35,9 @@ theme = "vex-hugo"
       link = "mailto:sctyner@iastate.edu"
       text = "CONTACT"
     [[params.navbar.menu]]
+      link = "/day-zero-prep"
+      text = "DAY-ZERO PREP"
+    [[params.navbar.menu]]
       link = "https://github.com/uncoast-unconf/uu-2019/wiki/Code-of-Conduct" # temp. work-around until I figure out the internal linking thing.
       text = "CODE OF CONDUCT"
     [[params.navbar.menu]]
