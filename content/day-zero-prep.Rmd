@@ -30,7 +30,7 @@ If you want to get a head-start on next week's activity, you can make sure that 
 
 For your GitHub account:
 
-- if you do not have an account already, please [sign up for one](https://github.com/join), and keep your login-credentials handy:
+- if you do not have an account already, please [sign up for one](https://github.com/join). For our purposes, you will not need anything other than a free account. Please keep your login-credentials handy.
 - if you *do* already have an account, please make sure you have access to your login-credentials, i.e. you can enter them into the GitHub login page.
 
 As you might imagine, you will need your login-credentials going forward.
@@ -38,17 +38,31 @@ As you might imagine, you will need your login-credentials going forward.
 With each week's exercise, we plan to release a screencast video where we go through the steps ourselves.
 
 ```{r echo=FALSE}
-rickroll_youtube() %>%
+embed_youtube("1tpkC0z-4YE") %>%
   use_align("center") %>%
   use_rounded()
 ```
 
+Having watched the video, I want to emphasize that:
+
+- if you have version of RStudio IDE 1.2 or greater, you are likely just fine - I am intstalling the newest version just to make the demonstration.
+- the preview version available, if and when you make your installation, may well be later than the version shown in the video - this is OK.
+
+If you want to pick-and-choose topics:
+
+- Introduction: 0:00
+- RStudio IDE, macOS: 1:45
+- RStudio IDE, Windows: 4:48
+- GitHub account: 7:29
+- Github issues: 8:33
+- Summary: 10:46
+
 ### Verification
 
-If you can get through these steps, you are OK for this week:
+When you get through these steps, you are OK for this week:
 
 1. With your (new) version of the RStudio IDE, open the Terminal pane, type the command `date`, then enter. Your computer should return the current date or date-and-time. If you are on Windows, and are asked to enter a new date, just hit **enter**.
 
-2. Having signed into GitHub, go to [this issue]() on our Unconf issues page, either to introduce yourself, or to add an emoji reaction. Once you have done this, you are very welcome (in fact, encouraged) to participate in some of the [other issue discussions](https://github.com/uncoast-unconf/uu-2019/issues), or even start new ones.
+2. Having signed into GitHub, go to [this issue](https://github.com/uncoast-unconf/uu-2019-day-zero/issues/11) on our issues page, either to introduce yourself, or to add an emoji reaction. Once you have done this, you are very welcome (in fact, encouraged) to participate in some of the [other issue discussions](https://github.com/uncoast-unconf/uu-2019/issues) at the main Uncoast Unconf repository, or even start new ones.
 
 If you run into any problems, and are an Uncoast Unconf participant, you can check, then create a new [GitHub issue](https://github.com/uncoast-unconf/uu-2019-day-zero/issues) at the day-zero repository, or email Ian Lyttle at ian [dot] lyttle [at] se [dot] com.
