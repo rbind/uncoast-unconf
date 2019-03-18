@@ -38,24 +38,25 @@ As you might imagine, you will need your login-credentials going forward.
 With each week's exercise, we plan to release a screencast video where we go through the steps ourselves.
 
 ```{r echo=FALSE}
-embed_youtube("1tpkC0z-4YE") %>%
+embed_youtube("xR6KNj4mrO4") %>%
   use_align("center") %>%
   use_rounded()
 ```
 
-Having watched the video, I want to emphasize that:
+Having watched the video, I may have glossed over a few things, so I want to emphasize that:
 
+- Winston and Binford are Basset Hounds, and will make noise as they please :)
 - if you have version of RStudio IDE 1.2 or greater, you are likely just fine - I am intstalling the newest version just to make the demonstration.
-- the preview version available, if and when you make your installation, may well be later than the version shown in the video - this is OK.
+- the preview version  that RStudio makes available, if and when you make your installation, may well be later than the version shown in the video - this is OK.
 
 If you want to pick-and-choose topics:
 
 - Introduction: 0:00
-- RStudio IDE, macOS: 1:45
-- RStudio IDE, Windows: 4:48
-- GitHub account: 7:29
-- Github issues: 8:33
-- Summary: 10:46
+- RStudio IDE, macOS: 1:41
+- RStudio IDE, Windows: 4:44
+- GitHub account: 7:26
+- Github issues: 8:30
+- Summary: 10:43
 
 ### Verification
 
