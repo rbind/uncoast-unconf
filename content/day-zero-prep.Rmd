@@ -15,7 +15,7 @@ We're going to have only a short time together in person, so we want to do all w
 
 We plan to do a little bit each week until the Unconf starts.
 
-Just about all of this material was compiled by our friend Jenny Bryan, in her book [Happy Git with R](https://happygitwithr.com). In our material, we will hit the high points, then link to the source material in case you want more background.
+Just about all of this material was compiled by Dr. Jenny Bryan of RStudio, in her book [Happy Git with R](https://happygitwithr.com). In our material, we will hit the high points, then link to the source material in case you want more background.
 
 ## Week of March 17
 
