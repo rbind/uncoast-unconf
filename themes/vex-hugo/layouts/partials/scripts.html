@@ -8,6 +8,14 @@
     <script src="{{ relURL "js/jquery.magnific-popup.min.js" }}"></script>
     <script src="{{ relURL "js/main.js" }}"></script>
 
+    <!-- code-formatting -->
+    <script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+
+     <script>
+    hljs.configure({languages: []});
+    hljs.initHighlightingOnLoad();
+    </script>
     {{- range .Site.Params.custom_scripts }}
     <script src="{{ relURL . }}"></script>
     {{- end -}}

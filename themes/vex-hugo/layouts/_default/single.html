@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    {{- partial "meta.html" . }}
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    {{- partial "stylesheets.html" . }}
+  </head>
+
+  <body id="body">
+
+  	<div id="preloader-wrapper">
+  		<div class="pre-loader"></div>
+  	</div>
+
+    {{- partial "navbar.html" . }}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="article-meta">
+            <h1><span class="title">{{ .Title }}</span></h1>
+            {{ with .Params.author }}
+            <h2 class="author">{{ . }}</h2>
+            {{ end }}
+            {{ if .Params.date }}
+            <h2 class="date">{{ .Date.Format "2006-01-02" }}</h2>
+            {{ end }}
+          </div>
+
+          <main>
+            {{ .Content }}
+          </main>
+
+        </div>
+      </div>
+    </div>
+
+    {{- partial "footer.html" . }}
+
+    {{- partial "scripts.html" . }}
+
+  </body>
+</html>
+
+
+
+<!--
+{{ partial "header.html" . }}
+<div class="article-meta">
+<h1><span class="title">{{ .Title }}</span></h1>
+{{ with .Params.author }}
+<h2 class="author">{{ . }}</h2>
+{{ end }}
+{{ if .Params.date }}
+<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>
+{{ end }}
+</div>
+
+<main>
+{{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}
+-->

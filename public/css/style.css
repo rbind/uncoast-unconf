@@ -36,14 +36,18 @@ h4 {
   font-weight: 400; }
 
 p {
-  font-size: 18px;
-  line-height: 25px;
-  margin: 0px; }
+ font-size: 18px;
+ line-height: 25px;
+ /* margin: 0px; */
+}
 
+
+/*
 ul {
   padding: 0;
   margin: 0;
   list-style: none; }
+*/
 
 a {
   -webkit-transition: all 0.2s ease-in-out 0s;
@@ -115,13 +119,13 @@ a:active {
   font-weight: 500;
   font-size: 32px;
   line-height: 45px; }
-  
+
 .subsubheading {
   color: #3c3c3c;
   padding-bottom: 5px;
   font-weight: 100;
   font-size: 24px;
-  line-height: 45px; }  
+  line-height: 45px; }
 
 .btn {
   border-radius: 0; }
@@ -134,7 +138,7 @@ a:active {
   display: inline-block;
   background-color:  #135FB2;
   text-decoration: none;
-  
+
 /*--  -moz-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   -webkit-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5); --*/
@@ -308,14 +312,14 @@ a:active {
     line-height: 1.1; }
 
 .promo-details {
-  color: #fff;  
-  background:  #135FB2; 
+  color: #fff;
+  background:  #135FB2;
   font-weight: 500;
 }
 .promo-details a {
     color: #fff;
-    text-decoration: underline; 
-}  
+    text-decoration: underline;
+}
 
   .promo-details h2 {
     color: #fff;
@@ -336,7 +340,7 @@ a:active {
   border: 3px solid #3C3C3C;
   border-radius: 50%;
   vertical-align: middle;
-}  
+}
 .feature-list img.phead{
   height: 300px;
   width: 300px;
@@ -351,7 +355,7 @@ a:active {
   Gallery start
 --*/
 .gallery {
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
   background: #135FB2;
   color: #fff;
 }
@@ -419,7 +423,7 @@ a:active {
 .testimonials {
   background: #135FB2;
   color: #fff;}
-  
+
 .testimonials h2 {
   color: #fff;
 }
@@ -430,8 +434,8 @@ a:active {
   text-decoration: underline;
 }
 .testimonials .testimonial-block {
-  padding: 0 10px; 
-  background:  #135FB2; 
+  padding: 0 10px;
+  background:  #135FB2;
 }
   .testimonials .testimonial-block i {
     font-size: 40px;
@@ -446,7 +450,7 @@ a:active {
     margin-top: 30px; }
     .testimonials .testimonial-block .author-details img {
       border-radius: 50%;
-      width: 100px; 
+      width: 100px;
       border: 2px solid #fff;
     }
     .testimonials .testimonial-block .author-details h4 {
@@ -503,7 +507,7 @@ footer {
       color: #282828; }
       footer p.copyright-text a:hover {
         text-decoration: none; }
-        
+
 .team-member {
     margin-bottom: 30px;
     margin-left: 10px;
@@ -511,7 +515,7 @@ footer {
     text-align: center;
 }
 
-/*-- 
+/*--
   border: 4px solid #135FB2; border-radius: 50%; vertical-align: middle; height: 150px; width: 150px; margin-bottom: 10px;
 --*/
 
@@ -522,7 +526,7 @@ footer {
   height: 150px;
   width: 150px;
   margin-bottom: 10px;
-} 
+}
 
 .team-member p {
     margin-top: 0;
@@ -604,6 +608,20 @@ ul.social-buttons li a {
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+}
+
+/* margin underneath article-meta*/
+.article-meta {
+    margin-bottom: 20px;
+}
+
+/* not quite-so-much padding for "level" sections */
+.section.level2,
+.section.level3,
+.section.level4,
+.section.level5,
+.section.level6 {
+  padding: 10px 0;
 }
 
 
