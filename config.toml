@@ -83,15 +83,15 @@ theme = "vex-hugo"
     [[params.features.right]]
       icon = "tf-ion-calendar"
       title = "April 14"
-      text = "An optional 'Day Zero' workshop for learning how to write R packages and collaborate with Github."
+      text = "An optional 'Day Zero' workshop for learning how to write R packages and collaborate with Github. More info [here](https://github.com/uncoast-unconf/uu-2019-day-zero)"
     [[params.features.right]]
       icon = "tf-ion-calendar"
       title = "April 15"
-      text = "Day 1: Start with some introductions, form project groups, and go!"
+      text = "Day 1: Start with some introductions, form project groups, and go! Full schedule [here](https://github.com/uncoast-unconf/uu-2019/wiki/Schedule)"
     [[params.features.right]]
       icon = "tf-ion-calendar"
       title = "April 16"
-      text = "Day 2: Continue to work on projects, group discussions, report out, dinner as a group."
+      text = "Day 2: Continue to work on projects, group discussions, report out, dinner as a group. Full schedule [here](https://github.com/uncoast-unconf/uu-2019/wiki/Schedule)"
 
   [params.promo]
     title = "What is an unconference?"
