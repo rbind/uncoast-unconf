@@ -27,7 +27,7 @@ Thanks everyone for participating last week - if you have not had a chance to re
 This week, we focus on installing foundational tools on our computer. Even if you already have R (which should be most of us), it can be useful to check that you are up-to-date:
 
 - R itself [[Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html)]
-- git [[Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html)]
+- git [[Happy-Git ref.](https://happygitwithr.com/install-git.html)]
 
 Our recommended processes for installing these are just a little-bit for Windows and macOS, so we provide a screencast for each.
 
