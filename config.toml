@@ -466,7 +466,7 @@ theme = "vex-hugo"
       img = "Kevin-Wright.png"
       twitter = "kw_stat"
       github = "kwstat"
-      url = ""
+      url = "https://github.com/kwstat/"
 
     [[params.team.members]]
       name = "Siqi Zhang"
