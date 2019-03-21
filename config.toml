@@ -23,10 +23,10 @@ theme = "vex-hugo"
       link = "/"
       text = "HOME"
     [[params.navbar.menu]]
-      link = "#about"
+      link = "/#about"
       text = "ABOUT"
     [[params.navbar.menu]]
-      link = "#sponsors"
+      link = "/#sponsors"
       text = "SPONSORS"
 #    [[params.navbar.menu]]
 #      link = "http://bit.ly/uncoastUnconf19"
