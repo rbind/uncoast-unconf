@@ -34,7 +34,7 @@ Our recommended processes for installing these are just a little-bit for Windows
 ### Windows
 
 ```{r echo=FALSE}
-rickroll_youtube("cKk7rioLFH0") %>%
+rickroll_youtube() %>%
   use_align("center") %>%
   use_rounded()
 ```
@@ -42,7 +42,7 @@ rickroll_youtube("cKk7rioLFH0") %>%
 ### macOS
 
 ```{r echo=FALSE}
-rickroll_youtube("cKk7rioLFH0") %>%
+rickroll_youtube() %>%
   use_align("center") %>%
   use_rounded()
 ```
