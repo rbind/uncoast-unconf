@@ -18,7 +18,7 @@ We plan to do a little bit each week until the Unconf starts:
 - [Week of March 17](#week-00): RStudio IDE and GitHub account
 - [Week of March 24](#week-01): R and git installation
 
-Just about all of this material was compiled by Dr. Jenny Bryan of RStudio, in her book [Happy Git with R](https://happygitwithr.com). In our material, we will hit the high points, then link to the source material in case you want more background.
+Just about all of this material was compiled by Dr. Jenny Bryan of RStudio and coworkers, in their book [Happy Git and Guthub for the useR](https://happygitwithr.com). In our material, we will hit the high points, then link to the source material in case you want more background.
 
 ## Week of March 24 {#week-01}
 
@@ -26,8 +26,8 @@ Thanks everyone for participating last week - if you have not had a chance to re
 
 This week, we focus on installing foundational tools on our computer. Even if you already have R (which should be most of us), it can be useful to check that you are up-to-date:
 
-- R itself [[Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html)]
-- git [[Happy-Git ref.](https://happygitwithr.com/install-git.html)]
+- R: [[Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html)], [[CRAN R download](https://cloud.r-project.org)]
+- git: [[Happy-Git ref.](https://happygitwithr.com/install-git.html)], Windows only: [[Git for Windows](https://gitforwindows.org/)]
 
 Our recommended processes for installing these are just a little-bit for Windows and macOS, so we provide a screencast for each.
 
@@ -51,7 +51,9 @@ rickroll_youtube() %>%
 
 When you get through these steps, you are OK for this week:
 
-1. From the RStudio IDE Console pane (the R prompt):
+#### R version
+
+From the RStudio IDE Console pane (the R prompt):
 
 ```{r}
 R.version.string
@@ -59,13 +61,29 @@ R.version.string
 
 If your version is at least 3.4, you're OK.
 
-1. From the RStudio IDE Terminal pane (access to your computer itself):
+#### Git version
+
+From the RStudio IDE **Terminal** pane (access to your computer itself):
 
 ```
 git --version
 ```
 
-If you get a response indicating that your computer knows about git, then you're OK.
+Your response should look something like this:
+
+Windows:
+
+```
+git version 2.21.0.windows.1
+```
+
+macOS:
+
+```
+git version 2.17.2 (Apple Git-113)
+```
+
+---
 
 If you run into any problems, and are an Uncoast Unconf participant, you can check, then create a new [GitHub issue](https://github.com/uncoast-unconf/uu-2019-day-zero/issues) at the day-zero repository, or email Ian Lyttle at ian [dot] lyttle [at] se [dot] com.
 
