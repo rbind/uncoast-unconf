@@ -29,7 +29,17 @@ This week, we focus on installing foundational tools on our computer. Even if yo
 - R: [[Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html)], [[CRAN R download](https://cloud.r-project.org)]
 - git: [[Happy-Git ref.](https://happygitwithr.com/install-git.html)], Windows only: [[Git for Windows](https://gitforwindows.org/)]
 
-Our recommended processes for installing these are different for Windows and macOS, so we provide a screencast for each.
+Installing R and git are a little different between Windows and macOS, so we provide a screencast for each. That being said, there were a few things couple of things I would like to emphasize from the videos:
+
+- I have edited out a lot of the time needed for the installation process, otherwise we would have 30-minute videos! I have edited out a few of the "clicks", but I have shown explicitly any option you have to confirm is set.
+
+- Sorry for forgetting to change my Mac's RStudio IDE from "dark mode"; I'll remember next time :)
+
+- If you do have to reinstall your packages, this usually gets *me* 80% of the way there:
+
+```r
+install.packages(c("tidyverse", "rmarkdown", "shiny", "devtools"))
+```
 
 ### Windows
 
@@ -60,12 +70,6 @@ R.version.string
 ```
 
 If your version is at least 3.4, you're OK.
-
-If you do have to reinstall your packages, this usually gets *me* 80% of the way there:
-
-```r
-install.packages(c("tidyverse", "rmarkdown", "shiny", "devtools"))
-```
 
 #### Git version
 
@@ -119,12 +123,12 @@ embed_youtube("cKk7rioLFH0") %>%
   use_rounded()
 ```
 
-Special thanks to Sam Tyner and Ameila McNamara for providing feedback on drafts of this video; Amelia provided a script I was able to use verbatim: right at the start, where I'm asking for questions.
+Special thanks to Sam Tyner and Amelia McNamara for providing feedback on drafts of this video; Amelia provided a script I was able to use verbatim: right at the start, where I'm asking for questions.
 
 Having watched the video, I may have glossed over a few things, so I want to emphasize that:
 
 - Winston and Binford are Basset Hounds, and will make noise as they please :)
-- if you have version of RStudio IDE 1.2 or greater, you are likely just fine - I am intstalling the newest version just to make the demonstration.
+- if you have version of RStudio IDE 1.2 or greater, you are likely just fine - I am installing the newest version just to make the demonstration.
 - the preview version  that RStudio makes available, if and when you make your installation, may well be later than the version shown in the video - this is OK.
 
 If you want to pick-and-choose topics:
@@ -133,7 +137,7 @@ If you want to pick-and-choose topics:
 - RStudio IDE, macOS: 2:19
 - RStudio IDE, Windows: 5:22
 - GitHub account: 8:04
-- Github issues: 9:08
+- GitHub issues: 9:08
 - Summary: 11:21
 
 ### Verification

@@ -22,7 +22,13 @@ date: 2019-03-24
 <li>R: [<a href="https://happygitwithr.com/install-r-rstudio.html">Happy-Git ref.</a>], [<a href="https://cloud.r-project.org">CRAN R download</a>]</li>
 <li>git: [<a href="https://happygitwithr.com/install-git.html">Happy-Git ref.</a>], Windows only: [<a href="https://gitforwindows.org/">Git for Windows</a>]</li>
 </ul>
-<p>Our recommended processes for installing these are different for Windows and macOS, so we provide a screencast for each.</p>
+<p>Installing R and git are a little different between Windows and macOS, so we provide a screencast for each. That being said, there were a few things couple of things I would like to emphasize from the videos:</p>
+<ul>
+<li><p>I have edited out a lot of the time needed for the installation process, otherwise we would have 30-minute videos! I have edited out a few of the “clicks”, but I have shown explicitly any option you have to confirm is set.</p></li>
+<li><p>Sorry for forgetting to change my Mac’s RStudio IDE from “dark mode”; I’ll remember next time :)</p></li>
+<li><p>If you do have to reinstall your packages, this usually gets <em>me</em> 80% of the way there:</p></li>
+</ul>
+<pre class="r"><code>install.packages(c(&quot;tidyverse&quot;, &quot;rmarkdown&quot;, &quot;shiny&quot;, &quot;devtools&quot;))</code></pre>
 <div id="windows" class="section level3">
 <h3>Windows</h3>
 <div class="vembedr" align="center">
@@ -48,8 +54,6 @@ date: 2019-03-24
 <pre class="r"><code>R.version.string</code></pre>
 <pre><code>## [1] &quot;R version 3.5.3 (2019-03-11)&quot;</code></pre>
 <p>If your version is at least 3.4, you’re OK.</p>
-<p>If you do have to reinstall your packages, this usually gets <em>me</em> 80% of the way there:</p>
-<pre class="r"><code>install.packages(c(&quot;tidyverse&quot;, &quot;rmarkdown&quot;, &quot;shiny&quot;, &quot;devtools&quot;))</code></pre>
 </div>
 <div id="git-version" class="section level4">
 <h4>Git version</h4>
@@ -86,11 +90,11 @@ date: 2019-03-24
 <iframe src="https://www.youtube.com/embed/cKk7rioLFH0" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
-<p>Special thanks to Sam Tyner and Ameila McNamara for providing feedback on drafts of this video; Amelia provided a script I was able to use verbatim: right at the start, where I’m asking for questions.</p>
+<p>Special thanks to Sam Tyner and Amelia McNamara for providing feedback on drafts of this video; Amelia provided a script I was able to use verbatim: right at the start, where I’m asking for questions.</p>
 <p>Having watched the video, I may have glossed over a few things, so I want to emphasize that:</p>
 <ul>
 <li>Winston and Binford are Basset Hounds, and will make noise as they please :)</li>
-<li>if you have version of RStudio IDE 1.2 or greater, you are likely just fine - I am intstalling the newest version just to make the demonstration.</li>
+<li>if you have version of RStudio IDE 1.2 or greater, you are likely just fine - I am installing the newest version just to make the demonstration.</li>
 <li>the preview version that RStudio makes available, if and when you make your installation, may well be later than the version shown in the video - this is OK.</li>
 </ul>
 <p>If you want to pick-and-choose topics:</p>
@@ -99,7 +103,7 @@ date: 2019-03-24
 <li>RStudio IDE, macOS: 2:19</li>
 <li>RStudio IDE, Windows: 5:22</li>
 <li>GitHub account: 8:04</li>
-<li>Github issues: 9:08</li>
+<li>GitHub issues: 9:08</li>
 <li>Summary: 11:21</li>
 </ul>
 <div id="verification-1" class="section level3">
