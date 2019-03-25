@@ -107,12 +107,12 @@
 <li>R: [<a href="https://happygitwithr.com/install-r-rstudio.html">Happy-Git ref.</a>], [<a href="https://cloud.r-project.org">CRAN R download</a>]</li>
 <li>git: [<a href="https://happygitwithr.com/install-git.html">Happy-Git ref.</a>], Windows only: [<a href="https://gitforwindows.org/">Git for Windows</a>]</li>
 </ul>
-<p>Our recommended processes for installing these are just a little-bit for Windows and macOS, so we provide a screencast for each.</p>
+<p>Our recommended processes for installing these are different for Windows and macOS, so we provide a screencast for each.</p>
 <div id="windows" class="section level3">
 <h3>Windows</h3>
 <div class="vembedr" align="center">
 <div class="vembedr-rounded">
-<iframe src="https://www.youtube.com/embed/DLzxrzFCyOs" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/Sp0i-OEDRgA" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
 </div>
@@ -120,7 +120,7 @@
 <h3>macOS</h3>
 <div class="vembedr" align="center">
 <div class="vembedr-rounded">
-<iframe src="https://www.youtube.com/embed/DLzxrzFCyOs" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/K-92HPDX0F8" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
 </div>
@@ -131,13 +131,15 @@
 <h4>R version</h4>
 <p>From the RStudio IDE Console pane (the R prompt):</p>
 <pre class="r"><code>R.version.string</code></pre>
-<pre><code>## [1] &quot;R version 3.5.2 (2018-12-20)&quot;</code></pre>
+<pre><code>## [1] &quot;R version 3.5.3 (2019-03-11)&quot;</code></pre>
 <p>If your version is at least 3.4, you’re OK.</p>
+<p>If you do have to reinstall your packages, this usually gets <em>me</em> 80% of the way there:</p>
+<pre class="r"><code>install.packages(c(&quot;tidyverse&quot;, &quot;rmarkdown&quot;, &quot;shiny&quot;, &quot;devtools&quot;))</code></pre>
 </div>
 <div id="git-version" class="section level4">
 <h4>Git version</h4>
 <p>From the RStudio IDE <strong>Terminal</strong> pane (access to your computer itself):</p>
-<pre><code>git --version</code></pre>
+<pre class="bash"><code>git --version</code></pre>
 <p>Your response should look something like this:</p>
 <p>Windows:</p>
 <pre><code>git version 2.21.0.windows.1</code></pre>

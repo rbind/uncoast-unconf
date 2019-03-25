@@ -29,12 +29,12 @@ This week, we focus on installing foundational tools on our computer. Even if yo
 - R: [[Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html)], [[CRAN R download](https://cloud.r-project.org)]
 - git: [[Happy-Git ref.](https://happygitwithr.com/install-git.html)], Windows only: [[Git for Windows](https://gitforwindows.org/)]
 
-Our recommended processes for installing these are just a little-bit for Windows and macOS, so we provide a screencast for each.
+Our recommended processes for installing these are different for Windows and macOS, so we provide a screencast for each.
 
 ### Windows
 
 ```{r echo=FALSE}
-rickroll_youtube() %>%
+embed_youtube("Sp0i-OEDRgA") %>%
   use_align("center") %>%
   use_rounded()
 ```
@@ -42,7 +42,7 @@ rickroll_youtube() %>%
 ### macOS
 
 ```{r echo=FALSE}
-rickroll_youtube() %>%
+embed_youtube("K-92HPDX0F8") %>%
   use_align("center") %>%
   use_rounded()
 ```
@@ -61,11 +61,17 @@ R.version.string
 
 If your version is at least 3.4, you're OK.
 
+If you do have to reinstall your packages, this usually gets *me* 80% of the way there:
+
+```r
+install.packages(c("tidyverse", "rmarkdown", "shiny", "devtools"))
+```
+
 #### Git version
 
 From the RStudio IDE **Terminal** pane (access to your computer itself):
 
-```
+```bash
 git --version
 ```
 
