@@ -343,20 +343,11 @@ theme = "vex-hugo"
       url = "https://www.ire.org"
 
     [[params.team.members]]
-      name = "Jo Papio"
-      position = "The Ohio State University"
-      livesIn = "Ohio"
-      img = "templogo.png"
-      twitter = ""
-      github = "joepapio"
-      url = "https://www.linkedin.com/in/joe-papio-223811143/"
-
-    [[params.team.members]]
       name = "Val Quirino"
       position = "John Deere (Contracted)"
       livesIn = "Minnesota"
       img = "Valquiria-Quirino.jpeg"
-      twitter = ""
+      twitter = "UUnconf"
       github = ""
       url = ""
 
@@ -383,7 +374,7 @@ theme = "vex-hugo"
       position = "Nebraska Public Power District"
       livesIn = "Nebraska"
       img = "templogo.png"
-      twitter = ""
+      twitter = "UUnconf"
       github = ""
       url = ""
 
@@ -419,9 +410,9 @@ theme = "vex-hugo"
       position = "Minneapolis Heart Inst. Foundation"
       livesIn = "Minnesota"
       img = "templogo.png"
-      twitter = ""
+      twitter = "UUnconf"
       github = ""
-      url = ""
+      url = "https://www.researchgate.net/profile/Larissa_Stanberry"
 
     [[params.team.members]]
       name = "Geoffrey Thompson"

@@ -26,8 +26,25 @@ Thanks everyone for participating last week - if you have not had a chance to re
 
 This week, we focus on installing foundational tools on our computer. Even if you already have R (which should be most of us), it can be useful to check that you are up-to-date:
 
-- R: [[Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html)], [[CRAN R download](https://cloud.r-project.org)]
-- git: [[Happy-Git ref.](https://happygitwithr.com/install-git.html)], Windows only: [[Git for Windows](https://gitforwindows.org/)]
+- R: [Happy-Git ref.](https://happygitwithr.com/install-r-rstudio.html), [CRAN R download](https://cloud.r-project.org)
+- git: [Happy-Git ref.](https://happygitwithr.com/install-git.html), Windows only: [Git for Windows](https://gitforwindows.org/)
+
+If you are going to update your R version, you may want to run the following lines to save all the packages you have installed: 
+
+```r
+mypacks <- installed.packages()
+write.csv(mypacks, "~/Desktop/mypacks.csv") # or wherever you want to save them
+```
+
+Then, after installing the new R version, run:
+
+```r
+mypacks <- read.csv("~/Desktop/mypacks.csv", stringsAsFactors = FALSE)
+install.packages(mypacks$Package)
+```
+
+This should get you most of your packages. You may have to install others from Github one-by-one. 
+
 
 Installing R and git are a little different between Windows and macOS, so we provide a screencast for each. That being said, there were a few things couple of things I would like to emphasize from the videos:
 
