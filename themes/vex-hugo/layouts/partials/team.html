@@ -7,10 +7,10 @@
                       <h2>{{ .title }}</h2>
                       <h4 style="text-decoration: none">{{ .subtitle}}</h4>
                   </div>-->
-        <div class="heading">           
+        <div class="heading">
           <h2>{{ .title }}</h2>
           <h4 style="text-decoration: none">{{ .text }}</h4>
-        </div> 
+        </div>
        {{- end }}
       </div>
     </div>
@@ -21,7 +21,7 @@
             <a href="{{ .url }}">
             <img style="border: 4px solid #135FB2; border-radius: 50%; vertical-align: middle; height: 150px; width: 150px; margin-bottom: 10px;" src="images/team/{{ .img }}" alt="{{ .name }}" height="150px" width="150px">
             <h3 style="color: #333;">{{ .name | markdownify }}</h3>
-            
+
             {{ with .position }}
             <h4 style="color: #333;">{{ . | markdownify }}</h4>
             {{ end }}
@@ -29,16 +29,22 @@
             {{ with .livesIn }}
             <h5 style="color: #333;">Lives in {{ . | markdownify }}</h5>
             {{ end }}
-            
+
             </a>
 
             <ul class="list-inline social-buttons" style="display: block; margin-bottom: 5px;">
-              
+
             {{ with .twitter }}
             <li style="display: inline-block;"><a href="http://twitter.com/{{ . }}"><i style="color: #135FB2; width: 30px;" class="tf-ion-social-twitter"></i></a></li>
             {{ end }}
             {{ with .github }}
             <li style="display: inline-block;"><a href="http://github.com/{{ . }}"><i style="color: #135FB2; width: 30px;" class="tf-ion-social-github"></i></a></li>
+            {{ end }}
+            {{ with .linkedin }}
+            <li style="display: inline-block;"><a href="{{ . }}"><i style="color: #135FB2; width: 30px;" class="tf-ion-social-linkedin"></i></a></li>
+            {{ end }}
+            {{ if .none }}
+            <li style="display: inline-block;"><a href="http://twitter.com/UUnconf"><i style="color: #fff; width: 30px;" class="tf-ion-social-twitter"></i></a></li>
             {{ end }}
             </ul>
 

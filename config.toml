@@ -169,16 +169,8 @@ theme = "vex-hugo"
       img = "Nikhil-Agarwal.jpeg"
       twitter = "nikagarwal"
       github = "nikdata"
+      linkedin = "https://www.linkedin.com/in/nik-agarwal"
       url = "https://github.com/nikdata"
-
-    [[params.team.members]]
-      name = "Erica Baken"
-      position = "Iowa State University"
-      livesIn = "Iowa"
-      img = "Erica-Baken.jpeg"
-      twitter = "BakenErica"
-      github = ""
-      url = "https://ericabaken.weebly.com/"
 
     [[params.team.members]]
       name = "Pacis Bana"
@@ -187,6 +179,7 @@ theme = "vex-hugo"
       img = "Pacis-Bana.jpeg"
       twitter = "paciis"
       github = ""
+      linkedin = "https://www.linkedin.com/in/pacisbana"
       url = ""
 
     [[params.team.members]]
@@ -196,6 +189,7 @@ theme = "vex-hugo"
       img = "David-Body.png"
       twitter = "david_body"
       github = "davidbody"
+      linkedin = "https://www.linkedin.com/in/davidbody"
       url = "https://www.bigcreek.com/"
 
     [[params.team.members]]
@@ -205,7 +199,8 @@ theme = "vex-hugo"
       img = "Giorgi-Chighladze.png"
       twitter = "giorgichi"
       github = "giorgichi"
-      url = ""
+      linkedin = "https://www.linkedin.com/in/giorgi-chighladze-60806a40/"
+      url = "https://www.linkedin.com/in/giorgi-chighladze-60806a40/"
 
     [[params.team.members]]
       name = "Ben Crary"
@@ -214,7 +209,8 @@ theme = "vex-hugo"
       img = "Ben-Crary.png"
       twitter = "crary016"
       github = "benjamincrary"
-      url = ""
+      linkedin = "https://www.linkedin.com/in/benjamin-crary-11270454/"
+      url = "https://www.linkedin.com/in/benjamin-crary-11270454/"
 
     [[params.team.members]]
       name = "Noori Dabbish"
@@ -223,7 +219,8 @@ theme = "vex-hugo"
       img = "templogo.png"
       twitter = ""
       github = ""
-      url = ""
+      linkedin = "https://www.linkedin.com/in/nooreen-dabbish-8799355/"
+      url = "https://www.linkedin.com/in/nooreen-dabbish-8799355/"
 
     [[params.team.members]]
       name = "Ranae Dietzel"
@@ -240,6 +237,7 @@ theme = "vex-hugo"
       livesIn = "Minnesota"
       img = "Anne-Eaton.png"
       twitter = ""
+      linkedin = "https://www.linkedin.com/in/anne-eaton-405820101/"
       github = "anneae"
       url = "https://sites.google.com/a/umn.edu/anne-eaton/"
 
@@ -250,7 +248,8 @@ theme = "vex-hugo"
       img = "Jeffrey-Fletcher.png"
       twitter = "drjeff_fletcher"
       github = "DrFletch"
-      url = ""
+      linkedin = "https://www.linkedin.com/in/jeffreyfletcher7/"
+      url = "https://www.linkedin.com/in/jeffreyfletcher7/"
 
     [[params.team.members]]
       name = "Greg Freedman Ellis"
@@ -268,7 +267,8 @@ theme = "vex-hugo"
       img = "Amanda-Gadrow.png"
       twitter = "ajmcoqui"
       github = "ajmcoqui"
-      url = ""
+      linkedin = "https://www.linkedin.com/in/amandagadrow/"
+      url = "https://www.linkedin.com/in/amandagadrow/"
 
     [[params.team.members]]
       name = "Matt Harmston"
@@ -277,7 +277,8 @@ theme = "vex-hugo"
       img = "Matt-Harmston.png"
       twitter = ""
       github = ""
-      url = ""
+      linkedin = "https://www.linkedin.com/in/matt-harmston-82374b19/"
+      url = "https://www.linkedin.com/in/matt-harmston-82374b19/"
 
     [[params.team.members]]
       name = "Michelle Kosmicki"
@@ -286,6 +287,7 @@ theme = "vex-hugo"
       img = "Michelle-Kosmicki.png"
       twitter = "mkosmicki"
       github = "mkosmicki"
+      linkedin = "https://www.linkedin.com/in/michellekosmicki/"
       url = "https://github.com/mkosmicki"
 
     [[params.team.members]]
@@ -304,7 +306,8 @@ theme = "vex-hugo"
       img = "Heather-Lendway.png"
       twitter = "Heatherlendway"
       github = "Hlendway"
-      url = ""
+      linkedin = "https://www.linkedin.com/in/heatherlendway"
+      url = "https://www.linkedin.com/in/heatherlendway"
 
     [[params.team.members]]
       name = "Alison Link"
@@ -320,7 +323,7 @@ theme = "vex-hugo"
       position = "Miami University"
       livesIn = "Ohio"
       img = "Karsten-Maurer.png"
-      twitter = "NA"
+      twitter = ""
       github = "kmaurer"
       url = "http://kmaurer.github.io/"
 
@@ -331,6 +334,7 @@ theme = "vex-hugo"
       img = "templogo.png"
       twitter = ""
       github = ""
+      none = true
       url = ""
 
     [[params.team.members]]
@@ -347,7 +351,8 @@ theme = "vex-hugo"
       position = "John Deere (Contracted)"
       livesIn = "Minnesota"
       img = "Valquiria-Quirino.jpeg"
-      twitter = "UUnconf"
+      twitter = ""
+      non = true
       github = ""
       url = ""
 
@@ -358,15 +363,17 @@ theme = "vex-hugo"
       img = "templogo.png"
       twitter = "amandarae50312"
       github = "AmandaRaeISU"
-      url = ""
+      linkedin = "https://www.linkedin.com/in/amanda-rae-433070136/"
+      url = "https://www.linkedin.com/in/amanda-rae-433070136/"
 
     [[params.team.members]]
       name = "Alexis Saltzman"
       position = "University of Nebraska - Lincoln"
       livesIn = "Nebraska"
       img = "Alexis-Saltzman.png"
-      twitter = "UUnconf"
+      twitter = ""
       github = ""
+      linkedin = "https://www.linkedin.com/in/alexis-saltzman-2916b7100/"
       url = "https://www.linkedin.com/in/alexis-saltzman-2916b7100/"
 
     [[params.team.members]]
@@ -374,8 +381,9 @@ theme = "vex-hugo"
       position = "Nebraska Public Power District"
       livesIn = "Nebraska"
       img = "templogo.png"
-      twitter = "UUnconf"
+      twitter = ""
       github = ""
+      none = true
       url = ""
 
     [[params.team.members]]
@@ -385,14 +393,16 @@ theme = "vex-hugo"
       img = "Darvish-Shadravan.png"
       twitter = "dshadravan"
       github = ""
-      url = ""
+      linkedin = "https://www.linkedin.com/in/dshadravan/"
+      url = "https://www.linkedin.com/in/dshadravan/"
 
     [[params.team.members]]
       name = "John Shukle"
       position = "Indiana University - Indianapolis"
       livesIn = "Indiana"
       img = "templogo.png"
-      twitter = "UUnconf"
+      twitter = ""
+      none = true
       github = ""
       url = ""
 
@@ -403,15 +413,16 @@ theme = "vex-hugo"
       img = "Darrin-Speegle.png"
       twitter = "speegled"
       github = "speegled"
-      url = "http://stat.slu.edu/~speegle/"
+      url = "https://learningstats.netlify.com/"
 
     [[params.team.members]]
       name = "Larissa Stanberry"
       position = "Minneapolis Heart Inst. Foundation"
       livesIn = "Minnesota"
       img = "templogo.png"
-      twitter = "UUnconf"
+      twitter = ""
       github = ""
+      none = true
       url = "https://www.researchgate.net/profile/Larissa_Stanberry"
 
     [[params.team.members]]
@@ -448,7 +459,7 @@ theme = "vex-hugo"
       img = "Kathleen-Wendt.png"
       twitter = "KathleenWendt8"
       github = "wendtke"
-      url = ""
+      url = "https://www.researchgate.net/profile/Kathleen_Wendt2"
 
     [[params.team.members]]
       name = "Kevin Wright"
@@ -457,6 +468,7 @@ theme = "vex-hugo"
       img = "Kevin-Wright.png"
       twitter = "kw_stat"
       github = "kwstat"
+      linkedin = "https://www.linkedin.com/in/kevin-wright-00ba3520/"
       url = "https://github.com/kwstat/"
 
     [[params.team.members]]
