@@ -7,6 +7,7 @@ date: 2019-03-24
 ```{r echo=FALSE}
 # please install_github("ijlyttle/vembedr")
 library("vembedr")
+library("emo")
 ```
 
 We're all looking forward to getting together in Des Moines; we want everyone to be ready! This material may be useful to you regardless of your day-zero attendance.
@@ -17,8 +18,65 @@ We plan to do a little bit each week until the Unconf starts:
 
 - [Week of March 17](#week-00): RStudio IDE and GitHub account
 - [Week of March 24](#week-01): R and git installation
+- [Week of March 31](#week-02): devtools (and Rtools) installation
 
 Just about all of this material was compiled by Dr. Jenny Bryan of RStudio and coworkers, in their book [Happy Git and Guthub for the useR](https://happygitwithr.com). In our material, we will hit the high points, then link to the source material in case you want more background.
+
+## Week of March 31 {#week-02}
+
+As usual, we have a screencast with details below:
+
+```{r echo=FALSE}
+embed_youtube("xrT5W0rf9vA") %>%
+  use_align("center") %>%
+  use_rounded()
+```
+
+### Review
+
+Thanks again for everyone's participation, we start this week's activities with a review, where we encourage that:
+
+`r emo::ji("check")` your RStudio IDE version is at least 1.2
+
+`r emo::ji("check")` you have a [GitHub](https://github.com) account, and have access to your credentials
+
+`r emo::ji("check")` your R version is at least 3.4
+
+`r emo::ji("check")` you have git installed on your computer
+
+If you need to catch up, all the details are found in the [March 24](#week-01) and [March 17](#week-00) sections. 
+
+### devtools
+
+This week's main activity is to install the [devtools](https://devtools.r-lib.org/) package, and to make sure your computer has everything devtools needs. 
+
+You can install devtools from your RStudio IDE Console pane:
+
+```r
+install.packages("devtools")
+```
+
+If you are on macOS, this should *just work*. If you are on Windows, you may get a warning that "Rtools is not installed"; if so, don't worry, we'll take care of this presently.
+
+Our next step is to test that devtools has everything *it* needs:
+
+```r
+devtools::has_devel(debug = TRUE)
+```
+
+If successful, this function will return silently. On macOS, this should *just work*. 
+
+If you are on Windows, devtools may offer to install Rtools for you; please accept this offer. As well, if the installation process asks you to amend your path, please help it do so. Once the installation process finishes, go back to the Console pane and run again: `devtools::has_devel(debug = TRUE)`; this time it *should* return silently.
+
+Our last task for the week is to install a package from GitHub. We are going to use the [usethis](https://usethis.r-lib.org/) package next week, but we will make sure that devtools can install it now:
+
+```r
+devtools::install_github("r-lib/usethis", force = TRUE)
+```
+
+We would not normally use the option `force = TRUE`; we are doing so here just to make sure that the installation process works. If this returns without an error, you're done for the week.
+
+If you run into any difficulties, please let us know using [this GitHub issue](https://github.com/uncoast-unconf/uu-2019-day-zero/issues/12), or if you prefer, email ian [dot] lyttle [at] se [dot] com.
 
 ## Week of March 24 {#week-01}
 
