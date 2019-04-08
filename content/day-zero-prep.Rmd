@@ -19,9 +19,94 @@ We plan to do a little bit each week until the Unconf starts:
 - [Week of March 17](#week-00): RStudio IDE and GitHub account
 - [Week of March 24](#week-01): R and git installation
 - [Week of March 31](#week-02): devtools (and Rtools) installation
-- Week of April 7: configuration with usethis
+- [Week of April 7](#week-03): configuration with usethis
 
 Just about all of this material was compiled by Dr. Jenny Bryan of RStudio and coworkers, in their book [Happy Git and Guthub for the useR](https://happygitwithr.com). In our material, we will hit the high points, then link to the source material in case you want more background.
+
+## Week of April 7 {#week-03}
+
+As usual, we have a screencast with details below:
+
+```{r echo=FALSE}
+embed_youtube("ntsKrCMcyt8") %>%
+  use_align("center") %>%
+  use_rounded()
+```
+
+This is our last week of preparation; thanks for your perseverance! Before taking on this week's work, please make sure you have caught up on the previous weeks.
+
+One of the things I could have made on the video is the choice of git protocol. Let me try to clarify:
+
+- If you do not have ssh set up to use on GitHub (perhaps because you are new to GitHub), then please set your `usethis.protocol` to `"https"`.
+
+- If you are currently set up to use ssh on GitHub, it works for you, and you want to keep using ssh, you may need only to make sure your `usethis.protocol` is set to `"ssh"`.
+
+Also, if you already have a `.Renviron` file and/or a `.Rprofile` file already, the [starter files](https://gist.github.com/ijlyttle/dee4a89c8528cd4a0a319bb7b8cdd51a) may be useful for you to pick-and-choose things to incorporate into your files.
+
+If don't already have `.Renviron` file and/or a `.Rprofile` file, the [starter files](https://gist.github.com/ijlyttle/dee4a89c8528cd4a0a319bb7b8cdd51a) may be useful for you to copy in their entirety (while, of course personalizing the name, email, and `GITHUB_PAT`).
+
+If you are unsure about anything in this video, or run into trouble, please [file an issue](https://github.com/uncoast-unconf/uu-2019-day-zero/issues/12) or email ian [dot] lyttle [at] se [dot] com. 
+
+This week, we configure git and GitHub, using the [usethis](https://usethis.r-lib.org/) package. It has a fresh, new version on CRAN, so please install it, as well as the [reprex](https://reprex.tidyverse.org/) package: 
+
+```r
+install.packages(c("usethis", "reprex"))
+```
+
+Here are some links you might find useful:
+
+- [What They Forgot to Teach You About R](https://whattheyforgot.org/index.html) by Jenny Bryan and Jim Hester (under development). You may be particularly interested in their chapter on [R startup](https://whattheyforgot.org/r-startup.html), which will go over `.Rprofile` and `.Renviron`.
+- where you can [check the email-addresses](https://github.com/settings/emails) you have registered with GitHub
+- [starter files](https://gist.github.com/ijlyttle/dee4a89c8528cd4a0a319bb7b8cdd51a) for `.Renviron` and `.Rprofile`
+
+
+### Verification
+
+You will know you're done when you run from the Console:
+
+```r
+usethis::git_sitrep()
+```
+
+You'll get something like this (and you might get some extra stuff, too):
+
+```
+ Git user
+ * Name: 'Ian Lyttle'
+ * Email: 'ian.lyttle@schneider-electric.com'
+ * Vaccinated: TRUE
+ usethis + git2r
+ * Default usethis protocol: 'https'
+ * git2r supports SSH: TRUE
+ * Credentials: '<usethis + git2r default behaviour>'
+ GitHub
+ * Personal access token: '<found in env var>'
+ * User: 'ijlyttle'
+ * Name: 'Ian Lyttle'
+```
+
+Please make sure that, for you:
+
+`Git user`:
+
+- `r emo::ji("check")` `Vaccinated: TRUE`
+
+- `r emo::ji("check")` `Name:` is correct
+
+- `r emo::ji("check")` `Email:` is correct
+
+`usethis + git2r`:
+
+- `r emo::ji("check")` `Default usethis protocol:` either `'https'` or `'ssh'` (your choice)
+
+`GitHub`:
+
+- `r emo::ji("check")` `Personal access token: '<found in env var>'`
+
+- `r emo::ji("check")` `User:` is correct
+
+- `r emo::ji("check")` `Name:` is correct
+
 
 ## Week of March 31 {#week-02}
 

@@ -83,7 +83,7 @@
             <h1><span class="title">Day-Zero Preparation</span></h1>
             
             
-            <h2 class="date">2019-03-24</h2>
+            <h2 class="date">2019-03-31</h2>
             
           </div>
 
@@ -99,8 +99,70 @@
 <li><a href="#week-00">Week of March 17</a>: RStudio IDE and GitHub account</li>
 <li><a href="#week-01">Week of March 24</a>: R and git installation</li>
 <li><a href="#week-02">Week of March 31</a>: devtools (and Rtools) installation</li>
+<li><a href="#week-03">Week of April 7</a>: configuration with usethis</li>
 </ul>
 <p>Just about all of this material was compiled by Dr. Jenny Bryan of RStudio and coworkers, in their book <a href="https://happygitwithr.com">Happy Git and Guthub for the useR</a>. In our material, we will hit the high points, then link to the source material in case you want more background.</p>
+<div id="week-03" class="section level2">
+<h2>Week of April 7</h2>
+<p>As usual, we have a screencast with details below:</p>
+<div class="vembedr" align="center">
+<div class="vembedr-rounded">
+<iframe src="https://www.youtube.com/embed/ntsKrCMcyt8" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
+<p>This is our last week of preparation; thanks for your perseverance! Before taking on this week’s work, please make sure you have caught up on the previous weeks.</p>
+<p>One of the things I could have made on the video is the choice of git protocol. Let me try to clarify:</p>
+<ul>
+<li><p>If you do not have ssh set up to use on GitHub (perhaps because you are new to GitHub), then please set your <code>usethis.protocol</code> to <code>&quot;https&quot;</code>.</p></li>
+<li><p>If you are currently set up to use ssh on GitHub, it works for you, and you want to keep using ssh, you may need only to make sure your <code>usethis.protocol</code> is set to <code>&quot;ssh&quot;</code>.</p></li>
+</ul>
+<p>Also, if you already have a <code>.Renviron</code> file and/or a <code>.Rprofile</code> file already, the <a href="https://gist.github.com/ijlyttle/dee4a89c8528cd4a0a319bb7b8cdd51a">starter files</a> may be useful for you to pick-and-choose things to incorporate into your files.</p>
+<p>If don’t already have <code>.Renviron</code> file and/or a <code>.Rprofile</code> file, the <a href="https://gist.github.com/ijlyttle/dee4a89c8528cd4a0a319bb7b8cdd51a">starter files</a> may be useful for you to copy in their entirety (while, of course personalizing the name, email, and <code>GITHUB_PAT</code>).</p>
+<p>If you are unsure about anything in this video, or run into trouble, please <a href="https://github.com/uncoast-unconf/uu-2019-day-zero/issues/12">file an issue</a> or email ian [dot] lyttle [at] se [dot] com.</p>
+<p>This week, we configure git and GitHub, using the <a href="https://usethis.r-lib.org/">usethis</a> package. It has a fresh, new version on CRAN, so please install it, as well as the <a href="https://reprex.tidyverse.org/">reprex</a> package:</p>
+<pre class="r"><code>install.packages(c(&quot;usethis&quot;, &quot;reprex&quot;))</code></pre>
+<p>Here are some links you might find useful:</p>
+<ul>
+<li><a href="https://whattheyforgot.org/index.html">What They Forgot to Teach You About R</a> by Jenny Bryan and Jim Hester (under development). You may be particularly interested in their chapter on <a href="https://whattheyforgot.org/r-startup.html">R startup</a>, which will go over <code>.Rprofile</code> and <code>.Renviron</code>.</li>
+<li>where you can <a href="https://github.com/settings/emails">check the email-addresses</a> you have registered with GitHub</li>
+<li><a href="https://gist.github.com/ijlyttle/dee4a89c8528cd4a0a319bb7b8cdd51a">starter files</a> for <code>.Renviron</code> and <code>.Rprofile</code></li>
+</ul>
+<div id="verification" class="section level3">
+<h3>Verification</h3>
+<p>You will know you’re done when you run from the Console:</p>
+<pre class="r"><code>usethis::git_sitrep()</code></pre>
+<p>You’ll get something like this (and you might get some extra stuff, too):</p>
+<pre><code> Git user
+ * Name: &#39;Ian Lyttle&#39;
+ * Email: &#39;ian.lyttle@schneider-electric.com&#39;
+ * Vaccinated: TRUE
+ usethis + git2r
+ * Default usethis protocol: &#39;https&#39;
+ * git2r supports SSH: TRUE
+ * Credentials: &#39;&lt;usethis + git2r default behaviour&gt;&#39;
+ GitHub
+ * Personal access token: &#39;&lt;found in env var&gt;&#39;
+ * User: &#39;ijlyttle&#39;
+ * Name: &#39;Ian Lyttle&#39;</code></pre>
+<p>Please make sure that, for you:</p>
+<p><code>Git user</code>:</p>
+<ul>
+<li><p>✅ <code>Vaccinated: TRUE</code></p></li>
+<li><p>✅ <code>Name:</code> is correct</p></li>
+<li><p>✅ <code>Email:</code> is correct</p></li>
+</ul>
+<p><code>usethis + git2r</code>:</p>
+<ul>
+<li>✅ <code>Default usethis protocol:</code> either <code>'https'</code> or <code>'ssh'</code> (your choice)</li>
+</ul>
+<p><code>GitHub</code>:</p>
+<ul>
+<li><p>✅ <code>Personal access token: '&lt;found in env var&gt;'</code></p></li>
+<li><p>✅ <code>User:</code> is correct</p></li>
+<li><p>✅ <code>Name:</code> is correct</p></li>
+</ul>
+</div>
+</div>
 <div id="week-02" class="section level2">
 <h2>Week of March 31</h2>
 <p>As usual, we have a screencast with details below:</p>
@@ -172,7 +234,7 @@ install.packages(mypacks$Package)</code></pre>
 </div>
 </div>
 </div>
-<div id="verification" class="section level3">
+<div id="verification-1" class="section level3">
 <h3>Verification</h3>
 <p>When you get through these steps, you are OK for this week:</p>
 <div id="r-version" class="section level4">
@@ -233,7 +295,7 @@ install.packages(mypacks$Package)</code></pre>
 <li>GitHub issues: 9:08</li>
 <li>Summary: 11:21</li>
 </ul>
-<div id="verification-1" class="section level3">
+<div id="verification-2" class="section level3">
 <h3>Verification</h3>
 <p>When you get through these steps, you are OK for this week:</p>
 <ol style="list-style-type: decimal">
